@@ -1,0 +1,215 @@
+// Binary Tree
+digraph {
+	"5c82dc94-3e0e-11eb-9605-5800e3ba9968" [label="LSTAT<=9.71?" color=red style=filled]
+	"5c82dc95-3e0e-11eb-a748-5800e3ba9968" [label="RM <= 6.939 ? " color=tomato style=filled]
+	"5c82dc94-3e0e-11eb-9605-5800e3ba9968" -> "5c82dc95-3e0e-11eb-a748-5800e3ba9968" [label=Y]
+	"5c82dc96-3e0e-11eb-8fd6-5800e3ba9968" [label="DIS <= 1.7573 ? " color=pink style=filled]
+	"5c82dc95-3e0e-11eb-a748-5800e3ba9968" -> "5c82dc96-3e0e-11eb-8fd6-5800e3ba9968" [label=Y]
+	"5c82dc97-3e0e-11eb-a5c0-5800e3ba9968" [label="samples = 5
+ value = 40.36" color=orange style=filled]
+	"5c82dc96-3e0e-11eb-8fd6-5800e3ba9968" -> "5c82dc97-3e0e-11eb-a5c0-5800e3ba9968" [label=Y]
+	"5c83037e-3e0e-11eb-a59f-5800e3ba9968" [label="RM <= 6.481 ? " color=orange style=filled]
+	"5c82dc96-3e0e-11eb-8fd6-5800e3ba9968" -> "5c83037e-3e0e-11eb-a59f-5800e3ba9968" [label=N]
+	"5c83037f-3e0e-11eb-ae7b-5800e3ba9968" [label="RM <= 6.144 ? " color=purple style=filled]
+	"5c83037e-3e0e-11eb-a59f-5800e3ba9968" -> "5c83037f-3e0e-11eb-ae7b-5800e3ba9968" [label=Y]
+	"5c830380-3e0e-11eb-a84d-5800e3ba9968" [label="samples = 24
+ value = 21.02916666666667" color=green style=filled]
+	"5c83037f-3e0e-11eb-ae7b-5800e3ba9968" -> "5c830380-3e0e-11eb-a84d-5800e3ba9968" [label=Y]
+	"5c830381-3e0e-11eb-bdcb-5800e3ba9968" [label="CRIM <= 0.12757 ? " color=green style=filled]
+	"5c83037f-3e0e-11eb-ae7b-5800e3ba9968" -> "5c830381-3e0e-11eb-bdcb-5800e3ba9968" [label=N]
+	"5c830382-3e0e-11eb-9a26-5800e3ba9968" [label="LSTAT <= 6.78 ? " color=red style=filled]
+	"5c830381-3e0e-11eb-bdcb-5800e3ba9968" -> "5c830382-3e0e-11eb-9a26-5800e3ba9968" [label=Y]
+	"5c830383-3e0e-11eb-95d0-5800e3ba9968" [label="DIS <= 6.0622 ? " color=orange style=filled]
+	"5c830382-3e0e-11eb-9a26-5800e3ba9968" -> "5c830383-3e0e-11eb-95d0-5800e3ba9968" [label=Y]
+	"5c830384-3e0e-11eb-9f0c-5800e3ba9968" [label="samples = 5
+ value = 25.320000000000004" color=orange style=filled]
+	"5c830383-3e0e-11eb-95d0-5800e3ba9968" -> "5c830384-3e0e-11eb-9f0c-5800e3ba9968" [label=Y]
+	"5c830385-3e0e-11eb-bafd-5800e3ba9968" [label="samples = 6
+ value = 23.383333333333336" color=orange style=filled]
+	"5c830383-3e0e-11eb-95d0-5800e3ba9968" -> "5c830385-3e0e-11eb-bafd-5800e3ba9968" [label=N]
+	"5c830386-3e0e-11eb-8c3a-5800e3ba9968" [label="samples = 11
+ value = 22.58181818181818" color=orange style=filled]
+	"5c830382-3e0e-11eb-9a26-5800e3ba9968" -> "5c830386-3e0e-11eb-8c3a-5800e3ba9968" [label=N]
+	"5c830387-3e0e-11eb-a58e-5800e3ba9968" [label="samples = 12
+ value = 24.86666666666667" color=red style=filled]
+	"5c830381-3e0e-11eb-bdcb-5800e3ba9968" -> "5c830387-3e0e-11eb-a58e-5800e3ba9968" [label=N]
+	"5c830388-3e0e-11eb-9fe5-5800e3ba9968" [label="LSTAT <= 4.85 ? " color=purple style=filled]
+	"5c83037e-3e0e-11eb-a59f-5800e3ba9968" -> "5c830388-3e0e-11eb-9fe5-5800e3ba9968" [label=N]
+	"5c830389-3e0e-11eb-b1c5-5800e3ba9968" [label="PTRATIO <= 17.6 ? " color=red style=filled]
+	"5c830388-3e0e-11eb-9fe5-5800e3ba9968" -> "5c830389-3e0e-11eb-b1c5-5800e3ba9968" [label=Y]
+	"5c83038a-3e0e-11eb-b265-5800e3ba9968" [label="RM <= 6.739 ? " color=purple style=filled]
+	"5c830389-3e0e-11eb-b1c5-5800e3ba9968" -> "5c83038a-3e0e-11eb-b265-5800e3ba9968" [label=Y]
+	"5c83038b-3e0e-11eb-b9c8-5800e3ba9968" [label="samples = 5
+ value = 30.2" color=red style=filled]
+	"5c83038a-3e0e-11eb-b265-5800e3ba9968" -> "5c83038b-3e0e-11eb-b9c8-5800e3ba9968" [label=Y]
+	"5c83038c-3e0e-11eb-bb74-5800e3ba9968" [label="samples = 5
+ value = 32.599999999999994" color=red style=filled]
+	"5c83038a-3e0e-11eb-b265-5800e3ba9968" -> "5c83038c-3e0e-11eb-bb74-5800e3ba9968" [label=N]
+	"5c832a6c-3e0e-11eb-8b3f-5800e3ba9968" [label="samples = 5
+ value = 27.320000000000004" color=purple style=filled]
+	"5c830389-3e0e-11eb-b1c5-5800e3ba9968" -> "5c832a6c-3e0e-11eb-8b3f-5800e3ba9968" [label=N]
+	"5c832a6d-3e0e-11eb-bf3d-5800e3ba9968" [label="NOX <= 0.52 ? " color=red style=filled]
+	"5c830388-3e0e-11eb-9fe5-5800e3ba9968" -> "5c832a6d-3e0e-11eb-bf3d-5800e3ba9968" [label=N]
+	"5c832a6e-3e0e-11eb-8386-5800e3ba9968" [label="DIS <= 3.6519 ? " color=red style=filled]
+	"5c832a6d-3e0e-11eb-bf3d-5800e3ba9968" -> "5c832a6e-3e0e-11eb-8386-5800e3ba9968" [label=Y]
+	"5c832a6f-3e0e-11eb-afb3-5800e3ba9968" [label="samples = 10
+ value = 28.990000000000002" color=red style=filled]
+	"5c832a6e-3e0e-11eb-8386-5800e3ba9968" -> "5c832a6f-3e0e-11eb-afb3-5800e3ba9968" [label=Y]
+	"5c832a70-3e0e-11eb-badd-5800e3ba9968" [label="AGE <= 34.5 ? " color=red style=filled]
+	"5c832a6e-3e0e-11eb-8386-5800e3ba9968" -> "5c832a70-3e0e-11eb-badd-5800e3ba9968" [label=N]
+	"5c832a71-3e0e-11eb-afa1-5800e3ba9968" [label="samples = 9
+ value = 27.122222222222224" color=skyblue style=filled]
+	"5c832a70-3e0e-11eb-badd-5800e3ba9968" -> "5c832a71-3e0e-11eb-afa1-5800e3ba9968" [label=Y]
+	"5c835162-3e0e-11eb-8f09-5800e3ba9968" [label="samples = 10
+ value = 24.69" color=skyblue style=filled]
+	"5c832a70-3e0e-11eb-badd-5800e3ba9968" -> "5c835162-3e0e-11eb-8f09-5800e3ba9968" [label=N]
+	"5c835163-3e0e-11eb-8ea6-5800e3ba9968" [label="samples = 7
+ value = 23.985714285714284" color=red style=filled]
+	"5c832a6d-3e0e-11eb-bf3d-5800e3ba9968" -> "5c835163-3e0e-11eb-8ea6-5800e3ba9968" [label=N]
+	"5c835164-3e0e-11eb-ac90-5800e3ba9968" [label="RM <= 7.42 ? " color=pink style=filled]
+	"5c82dc95-3e0e-11eb-a748-5800e3ba9968" -> "5c835164-3e0e-11eb-ac90-5800e3ba9968" [label=N]
+	"5c835165-3e0e-11eb-8d02-5800e3ba9968" [label="samples = 29
+ value = 35.24060897435898" color=orange style=filled]
+	"5c835164-3e0e-11eb-ac90-5800e3ba9968" -> "5c835165-3e0e-11eb-8d02-5800e3ba9968" [label=Y]
+	"5c835166-3e0e-11eb-b81f-5800e3ba9968" [label="PTRATIO <= 17.4 ? " color=orange style=filled]
+	"5c835164-3e0e-11eb-ac90-5800e3ba9968" -> "5c835166-3e0e-11eb-b81f-5800e3ba9968" [label=N]
+	"5c835167-3e0e-11eb-94d1-5800e3ba9968" [label="PTRATIO <= 14.7 ? " color=yellow style=filled]
+	"5c835166-3e0e-11eb-b81f-5800e3ba9968" -> "5c835167-3e0e-11eb-94d1-5800e3ba9968" [label=Y]
+	"5c835168-3e0e-11eb-8310-5800e3ba9968" [label="RM <= 7.853 ? " color=tomato style=filled]
+	"5c835167-3e0e-11eb-94d1-5800e3ba9968" -> "5c835168-3e0e-11eb-8310-5800e3ba9968" [label=Y]
+	"5c835169-3e0e-11eb-9b15-5800e3ba9968" [label="samples = 5
+ value = 46.78" color=purple style=filled]
+	"5c835168-3e0e-11eb-8310-5800e3ba9968" -> "5c835169-3e0e-11eb-9b15-5800e3ba9968" [label=Y]
+	"5c83516a-3e0e-11eb-a6ee-5800e3ba9968" [label="samples = 6
+ value = 50.0" color=purple style=filled]
+	"5c835168-3e0e-11eb-8310-5800e3ba9968" -> "5c83516a-3e0e-11eb-a6ee-5800e3ba9968" [label=N]
+	"5c83516b-3e0e-11eb-b8bd-5800e3ba9968" [label="samples = 7
+ value = 44.82857142857142" color=tomato style=filled]
+	"5c835167-3e0e-11eb-94d1-5800e3ba9968" -> "5c83516b-3e0e-11eb-b8bd-5800e3ba9968" [label=N]
+	"5c83516c-3e0e-11eb-8d3e-5800e3ba9968" [label="samples = 6
+ value = 38.23333333333334" color=yellow style=filled]
+	"5c835166-3e0e-11eb-b81f-5800e3ba9968" -> "5c83516c-3e0e-11eb-8d3e-5800e3ba9968" [label=N]
+	"5c83516d-3e0e-11eb-8088-5800e3ba9968" [label="LSTAT <= 16.03 ? " color=tomato style=filled]
+	"5c82dc94-3e0e-11eb-9605-5800e3ba9968" -> "5c83516d-3e0e-11eb-8088-5800e3ba9968" [label=N]
+	"5c83516e-3e0e-11eb-89fd-5800e3ba9968" [label="B <= 100.63 ? " color=tomato style=filled]
+	"5c83516d-3e0e-11eb-8088-5800e3ba9968" -> "5c83516e-3e0e-11eb-89fd-5800e3ba9968" [label=Y]
+	"5c83516f-3e0e-11eb-b62a-5800e3ba9968" [label="samples = 6
+ value = 14.533333333333333" color=yellow style=filled]
+	"5c83516e-3e0e-11eb-89fd-5800e3ba9968" -> "5c83516f-3e0e-11eb-b62a-5800e3ba9968" [label=Y]
+	"5c835170-3e0e-11eb-97f5-5800e3ba9968" [label="TAX <= 279.0 ? " color=yellow style=filled]
+	"5c83516e-3e0e-11eb-89fd-5800e3ba9968" -> "5c835170-3e0e-11eb-97f5-5800e3ba9968" [label=N]
+	"5c837858-3e0e-11eb-9a58-5800e3ba9968" [label="PTRATIO <= 17.8 ? " color=red style=filled]
+	"5c835170-3e0e-11eb-97f5-5800e3ba9968" -> "5c837858-3e0e-11eb-9a58-5800e3ba9968" [label=Y]
+	"5c837859-3e0e-11eb-839f-5800e3ba9968" [label="samples = 5
+ value = 26.560000000000002" color=pink style=filled]
+	"5c837858-3e0e-11eb-9a58-5800e3ba9968" -> "5c837859-3e0e-11eb-839f-5800e3ba9968" [label=Y]
+	"5c83785a-3e0e-11eb-b17f-5800e3ba9968" [label="TAX <= 276.0 ? " color=pink style=filled]
+	"5c837858-3e0e-11eb-9a58-5800e3ba9968" -> "5c83785a-3e0e-11eb-b17f-5800e3ba9968" [label=N]
+	"5c83785b-3e0e-11eb-883c-5800e3ba9968" [label="samples = 13
+ value = 20.60769230769231" color=yellow style=filled]
+	"5c83785a-3e0e-11eb-b17f-5800e3ba9968" -> "5c83785b-3e0e-11eb-883c-5800e3ba9968" [label=Y]
+	"5c83785c-3e0e-11eb-aab6-5800e3ba9968" [label="samples = 6
+ value = 23.083333333333332" color=yellow style=filled]
+	"5c83785a-3e0e-11eb-b17f-5800e3ba9968" -> "5c83785c-3e0e-11eb-aab6-5800e3ba9968" [label=N]
+	"5c83785d-3e0e-11eb-a4f0-5800e3ba9968" [label="LSTAT <= 12.14 ? " color=red style=filled]
+	"5c835170-3e0e-11eb-97f5-5800e3ba9968" -> "5c83785d-3e0e-11eb-a4f0-5800e3ba9968" [label=N]
+	"5c83785e-3e0e-11eb-9c24-5800e3ba9968" [label="AGE <= 90.4 ? " color=red style=filled]
+	"5c83785d-3e0e-11eb-a4f0-5800e3ba9968" -> "5c83785e-3e0e-11eb-9c24-5800e3ba9968" [label=Y]
+	"5c83785f-3e0e-11eb-bf50-5800e3ba9968" [label="RAD <= 5.0 ? " color=purple style=filled]
+	"5c83785e-3e0e-11eb-9c24-5800e3ba9968" -> "5c83785f-3e0e-11eb-bf50-5800e3ba9968" [label=Y]
+	"5c837860-3e0e-11eb-be30-5800e3ba9968" [label="RM <= 5.868 ? " color=green style=filled]
+	"5c83785f-3e0e-11eb-bf50-5800e3ba9968" -> "5c837860-3e0e-11eb-be30-5800e3ba9968" [label=Y]
+	"5c837861-3e0e-11eb-8564-5800e3ba9968" [label="samples = 5
+ value = 18.479999999999997" color=orange style=filled]
+	"5c837860-3e0e-11eb-be30-5800e3ba9968" -> "5c837861-3e0e-11eb-8564-5800e3ba9968" [label=Y]
+	"5c837862-3e0e-11eb-85aa-5800e3ba9968" [label="samples = 11
+ value = 20.913333333333334" color=orange style=filled]
+	"5c837860-3e0e-11eb-be30-5800e3ba9968" -> "5c837862-3e0e-11eb-85aa-5800e3ba9968" [label=N]
+	"5c837863-3e0e-11eb-9497-5800e3ba9968" [label="samples = 10
+ value = 21.96" color=green style=filled]
+	"5c83785f-3e0e-11eb-bf50-5800e3ba9968" -> "5c837863-3e0e-11eb-9497-5800e3ba9968" [label=N]
+	"5c837864-3e0e-11eb-b0f7-5800e3ba9968" [label="samples = 7
+ value = 23.642857142857142" color=purple style=filled]
+	"5c83785e-3e0e-11eb-9c24-5800e3ba9968" -> "5c837864-3e0e-11eb-b0f7-5800e3ba9968" [label=N]
+	"5c837865-3e0e-11eb-9070-5800e3ba9968" [label="RAD <= 4.0 ? " color=red style=filled]
+	"5c83785d-3e0e-11eb-a4f0-5800e3ba9968" -> "5c837865-3e0e-11eb-9070-5800e3ba9968" [label=N]
+	"5c837866-3e0e-11eb-ac22-5800e3ba9968" [label="B <= 387.94 ? " color=pink style=filled]
+	"5c837865-3e0e-11eb-9070-5800e3ba9968" -> "5c837866-3e0e-11eb-ac22-5800e3ba9968" [label=Y]
+	"5c837867-3e0e-11eb-b541-5800e3ba9968" [label="samples = 5
+ value = 16.56" color=tomato style=filled]
+	"5c837866-3e0e-11eb-ac22-5800e3ba9968" -> "5c837867-3e0e-11eb-b541-5800e3ba9968" [label=Y]
+	"5c839f4a-3e0e-11eb-a61f-5800e3ba9968" [label="samples = 9
+ value = 18.722222222222225" color=tomato style=filled]
+	"5c837866-3e0e-11eb-ac22-5800e3ba9968" -> "5c839f4a-3e0e-11eb-a61f-5800e3ba9968" [label=N]
+	"5c839f4b-3e0e-11eb-ae31-5800e3ba9968" [label="LSTAT <= 14.36 ? " color=pink style=filled]
+	"5c837865-3e0e-11eb-9070-5800e3ba9968" -> "5c839f4b-3e0e-11eb-ae31-5800e3ba9968" [label=N]
+	"5c839f4c-3e0e-11eb-bc39-5800e3ba9968" [label="samples = 29
+ value = 20.078684210526315" color=orange style=filled]
+	"5c839f4b-3e0e-11eb-ae31-5800e3ba9968" -> "5c839f4c-3e0e-11eb-bc39-5800e3ba9968" [label=Y]
+	"5c839f4d-3e0e-11eb-ae0a-5800e3ba9968" [label="AGE <= 88.5 ? " color=orange style=filled]
+	"5c839f4b-3e0e-11eb-ae31-5800e3ba9968" -> "5c839f4d-3e0e-11eb-ae0a-5800e3ba9968" [label=N]
+	"5c839f4e-3e0e-11eb-b371-5800e3ba9968" [label="samples = 8
+ value = 19.737499999999997" color=purple style=filled]
+	"5c839f4d-3e0e-11eb-ae0a-5800e3ba9968" -> "5c839f4e-3e0e-11eb-b371-5800e3ba9968" [label=Y]
+	"5c839f4f-3e0e-11eb-beb0-5800e3ba9968" [label="samples = 6
+ value = 17.216666666666665" color=purple style=filled]
+	"5c839f4d-3e0e-11eb-ae0a-5800e3ba9968" -> "5c839f4f-3e0e-11eb-beb0-5800e3ba9968" [label=N]
+	"5c839f50-3e0e-11eb-b56c-5800e3ba9968" [label="NOX <= 0.597 ? " color=tomato style=filled]
+	"5c83516d-3e0e-11eb-8088-5800e3ba9968" -> "5c839f50-3e0e-11eb-b56c-5800e3ba9968" [label=N]
+	"5c839f51-3e0e-11eb-8e69-5800e3ba9968" [label="PTRATIO <= 20.9 ? " color=tomato style=filled]
+	"5c839f50-3e0e-11eb-b56c-5800e3ba9968" -> "5c839f51-3e0e-11eb-8e69-5800e3ba9968" [label=Y]
+	"5c839f52-3e0e-11eb-a39f-5800e3ba9968" [label="CRIM <= 4.42228 ? " color=orange style=filled]
+	"5c839f51-3e0e-11eb-8e69-5800e3ba9968" -> "5c839f52-3e0e-11eb-a39f-5800e3ba9968" [label=Y]
+	"5c839f53-3e0e-11eb-a1e6-5800e3ba9968" [label="samples = 24
+ value = 18.77857142857143" color=red style=filled]
+	"5c839f52-3e0e-11eb-a39f-5800e3ba9968" -> "5c839f53-3e0e-11eb-a1e6-5800e3ba9968" [label=Y]
+	"5c839f54-3e0e-11eb-a3e2-5800e3ba9968" [label="samples = 9
+ value = 16.56666666666667" color=red style=filled]
+	"5c839f52-3e0e-11eb-a39f-5800e3ba9968" -> "5c839f54-3e0e-11eb-a3e2-5800e3ba9968" [label=N]
+	"5c839f55-3e0e-11eb-951d-5800e3ba9968" [label="samples = 8
+ value = 14.2375" color=orange style=filled]
+	"5c839f51-3e0e-11eb-8e69-5800e3ba9968" -> "5c839f55-3e0e-11eb-951d-5800e3ba9968" [label=N]
+	"5c839f56-3e0e-11eb-acb5-5800e3ba9968" [label="CRIM <= 9.82349 ? " color=tomato style=filled]
+	"5c839f50-3e0e-11eb-b56c-5800e3ba9968" -> "5c839f56-3e0e-11eb-acb5-5800e3ba9968" [label=N]
+	"5c83c640-3e0e-11eb-9bd6-5800e3ba9968" [label="LSTAT <= 18.76 ? " color=purple style=filled]
+	"5c839f56-3e0e-11eb-acb5-5800e3ba9968" -> "5c83c640-3e0e-11eb-9bd6-5800e3ba9968" [label=Y]
+	"5c83c641-3e0e-11eb-8151-5800e3ba9968" [label="B <= 355.29 ? " color=yellow style=filled]
+	"5c83c640-3e0e-11eb-9bd6-5800e3ba9968" -> "5c83c641-3e0e-11eb-8151-5800e3ba9968" [label=Y]
+	"5c83c642-3e0e-11eb-90a4-5800e3ba9968" [label="samples = 10
+ value = 15.16" color=tomato style=filled]
+	"5c83c641-3e0e-11eb-8151-5800e3ba9968" -> "5c83c642-3e0e-11eb-90a4-5800e3ba9968" [label=Y]
+	"5c83c643-3e0e-11eb-a3e9-5800e3ba9968" [label="samples = 13
+ value = 16.657142857142855" color=tomato style=filled]
+	"5c83c641-3e0e-11eb-8151-5800e3ba9968" -> "5c83c643-3e0e-11eb-a3e9-5800e3ba9968" [label=N]
+	"5c83c644-3e0e-11eb-a163-5800e3ba9968" [label="NOX <= 0.713 ? " color=yellow style=filled]
+	"5c83c640-3e0e-11eb-9bd6-5800e3ba9968" -> "5c83c644-3e0e-11eb-a163-5800e3ba9968" [label=N]
+	"5c83c645-3e0e-11eb-9e77-5800e3ba9968" [label="samples = 15
+ value = 11.808928571428572" color=purple style=filled]
+	"5c83c644-3e0e-11eb-a163-5800e3ba9968" -> "5c83c645-3e0e-11eb-9e77-5800e3ba9968" [label=Y]
+	"5c83c646-3e0e-11eb-a997-5800e3ba9968" [label="samples = 8
+ value = 14.9375" color=purple style=filled]
+	"5c83c644-3e0e-11eb-a163-5800e3ba9968" -> "5c83c646-3e0e-11eb-a997-5800e3ba9968" [label=N]
+	"5c83c647-3e0e-11eb-9b06-5800e3ba9968" [label="NOX <= 0.671 ? " color=purple style=filled]
+	"5c839f56-3e0e-11eb-acb5-5800e3ba9968" -> "5c83c647-3e0e-11eb-9b06-5800e3ba9968" [label=N]
+	"5c83c648-3e0e-11eb-889b-5800e3ba9968" [label="samples = 6
+ value = 12.516666666666666" color=pink style=filled]
+	"5c83c647-3e0e-11eb-9b06-5800e3ba9968" -> "5c83c648-3e0e-11eb-889b-5800e3ba9968" [label=Y]
+	"5c83c649-3e0e-11eb-b3f8-5800e3ba9968" [label="DIS <= 1.9142 ? " color=pink style=filled]
+	"5c83c647-3e0e-11eb-9b06-5800e3ba9968" -> "5c83c649-3e0e-11eb-b3f8-5800e3ba9968" [label=N]
+	"5c83c64a-3e0e-11eb-9c80-5800e3ba9968" [label="NOX <= 0.693 ? " color=purple style=filled]
+	"5c83c649-3e0e-11eb-b3f8-5800e3ba9968" -> "5c83c64a-3e0e-11eb-9c80-5800e3ba9968" [label=Y]
+	"5c83c64b-3e0e-11eb-98da-5800e3ba9968" [label="DIS <= 1.5888 ? " color=skyblue style=filled]
+	"5c83c64a-3e0e-11eb-9c80-5800e3ba9968" -> "5c83c64b-3e0e-11eb-98da-5800e3ba9968" [label=Y]
+	"5c83c64c-3e0e-11eb-a1d4-5800e3ba9968" [label="samples = 5
+ value = 5.819999999999999" color=tomato style=filled]
+	"5c83c64b-3e0e-11eb-98da-5800e3ba9968" -> "5c83c64c-3e0e-11eb-a1d4-5800e3ba9968" [label=Y]
+	"5c83ed46-3e0e-11eb-ac09-5800e3ba9968" [label="samples = 5
+ value = 8.18" color=tomato style=filled]
+	"5c83c64b-3e0e-11eb-98da-5800e3ba9968" -> "5c83ed46-3e0e-11eb-ac09-5800e3ba9968" [label=N]
+	"5c83ed47-3e0e-11eb-9b38-5800e3ba9968" [label="samples = 9
+ value = 9.033333333333335" color=skyblue style=filled]
+	"5c83c64a-3e0e-11eb-9c80-5800e3ba9968" -> "5c83ed47-3e0e-11eb-9b38-5800e3ba9968" [label=N]
+	"5c83ed48-3e0e-11eb-b08c-5800e3ba9968" [label="samples = 5
+ value = 12.56" color=purple style=filled]
+	"5c83c649-3e0e-11eb-b3f8-5800e3ba9968" -> "5c83ed48-3e0e-11eb-b08c-5800e3ba9968" [label=N]
+}

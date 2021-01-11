@@ -1,0 +1,670 @@
+// Binary Tree
+digraph {
+	"20b31d8c-383e-11eb-81cb-5800e3ba9968" [label="pixel_3_6<=1.0?" color=purple style=filled]
+	"20b31d8d-383e-11eb-8c72-5800e3ba9968" [label="pixel_2_5 <= 1.0 ? " color=purple style=filled]
+	"20b31d8c-383e-11eb-81cb-5800e3ba9968" -> "20b31d8d-383e-11eb-8c72-5800e3ba9968" [label=Y]
+	"20b31d8e-383e-11eb-95e8-5800e3ba9968" [label="pixel_5_2 <= 8.0 ? " color=yellow style=filled]
+	"20b31d8d-383e-11eb-8c72-5800e3ba9968" -> "20b31d8e-383e-11eb-95e8-5800e3ba9968" [label=Y]
+	"20b31d8f-383e-11eb-954e-5800e3ba9968" [label="pixel_0_5 <= 1.0 ? " color=purple style=filled]
+	"20b31d8e-383e-11eb-95e8-5800e3ba9968" -> "20b31d8f-383e-11eb-954e-5800e3ba9968" [label=Y]
+	"20b31d90-383e-11eb-b7ca-5800e3ba9968" [label="pixel_2_3 <= 13.0 ? " color=red style=filled]
+	"20b31d8f-383e-11eb-954e-5800e3ba9968" -> "20b31d90-383e-11eb-b7ca-5800e3ba9968" [label=Y]
+	"20b31d91-383e-11eb-a788-5800e3ba9968" [label="pixel_4_5 <= 0.0 ? " color=orange style=filled]
+	"20b31d90-383e-11eb-b7ca-5800e3ba9968" -> "20b31d91-383e-11eb-a788-5800e3ba9968" [label=Y]
+	"20b31d92-383e-11eb-92b6-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=purple style=filled]
+	"20b31d91-383e-11eb-a788-5800e3ba9968" -> "20b31d92-383e-11eb-92b6-5800e3ba9968" [label=Y]
+	"20b31d93-383e-11eb-a351-5800e3ba9968" [label="samples = 1
+ value = 1.0" color=green style=filled]
+	"20b31d92-383e-11eb-92b6-5800e3ba9968" -> "20b31d93-383e-11eb-a351-5800e3ba9968" [label=Y]
+	"20b3b970-383e-11eb-b393-5800e3ba9968" [label="samples = 27
+ value = 2.0" color=green style=filled]
+	"20b31d92-383e-11eb-92b6-5800e3ba9968" -> "20b3b970-383e-11eb-b393-5800e3ba9968" [label=N]
+	"20b3b971-383e-11eb-ba29-5800e3ba9968" [label="pixel_0_3 <= 13.0 ? " color=purple style=filled]
+	"20b31d91-383e-11eb-a788-5800e3ba9968" -> "20b3b971-383e-11eb-ba29-5800e3ba9968" [label=N]
+	"20b3b972-383e-11eb-967a-5800e3ba9968" [label="pixel_2_1 <= 4.0 ? " color=pink style=filled]
+	"20b3b971-383e-11eb-ba29-5800e3ba9968" -> "20b3b972-383e-11eb-967a-5800e3ba9968" [label=Y]
+	"20b3b973-383e-11eb-9085-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=pink style=filled]
+	"20b3b972-383e-11eb-967a-5800e3ba9968" -> "20b3b973-383e-11eb-9085-5800e3ba9968" [label=Y]
+	"20b3b974-383e-11eb-b53b-5800e3ba9968" [label="pixel_0_3 <= 8.0 ? " color=purple style=filled]
+	"20b3b973-383e-11eb-9085-5800e3ba9968" -> "20b3b974-383e-11eb-b53b-5800e3ba9968" [label=Y]
+	"20b4557a-383e-11eb-97d5-5800e3ba9968" [label="samples = 1
+ value = 6.0" color=skyblue style=filled]
+	"20b3b974-383e-11eb-b53b-5800e3ba9968" -> "20b4557a-383e-11eb-97d5-5800e3ba9968" [label=Y]
+	"20b4557b-383e-11eb-8ed5-5800e3ba9968" [label="samples = 1
+ value = 1.0" color=skyblue style=filled]
+	"20b3b974-383e-11eb-b53b-5800e3ba9968" -> "20b4557b-383e-11eb-8ed5-5800e3ba9968" [label=N]
+	"20b4557c-383e-11eb-8fea-5800e3ba9968" [label="samples = 1
+ value = 9.0" color=purple style=filled]
+	"20b3b973-383e-11eb-9085-5800e3ba9968" -> "20b4557c-383e-11eb-8fea-5800e3ba9968" [label=N]
+	"20b4557d-383e-11eb-95e6-5800e3ba9968" [label="pixel_0_1 <= 0.0 ? " color=pink style=filled]
+	"20b3b972-383e-11eb-967a-5800e3ba9968" -> "20b4557d-383e-11eb-95e6-5800e3ba9968" [label=N]
+	"20b4f16c-383e-11eb-8934-5800e3ba9968" [label="samples = 2
+ value = 8.0" color=pink style=filled]
+	"20b4557d-383e-11eb-95e6-5800e3ba9968" -> "20b4f16c-383e-11eb-8934-5800e3ba9968" [label=Y]
+	"20b4f16d-383e-11eb-82ca-5800e3ba9968" [label="samples = 2
+ value = 5.0" color=pink style=filled]
+	"20b4557d-383e-11eb-95e6-5800e3ba9968" -> "20b4f16d-383e-11eb-82ca-5800e3ba9968" [label=N]
+	"20b4f16e-383e-11eb-93e7-5800e3ba9968" [label="samples = 12
+ value = 3.0" color=pink style=filled]
+	"20b3b971-383e-11eb-ba29-5800e3ba9968" -> "20b4f16e-383e-11eb-93e7-5800e3ba9968" [label=N]
+	"20b4f16f-383e-11eb-ac6d-5800e3ba9968" [label="pixel_5_6 <= 0.0 ? " color=orange style=filled]
+	"20b31d90-383e-11eb-b7ca-5800e3ba9968" -> "20b4f16f-383e-11eb-ac6d-5800e3ba9968" [label=N]
+	"20b4f170-383e-11eb-aee0-5800e3ba9968" [label="pixel_3_3 <= 2.0 ? " color=purple style=filled]
+	"20b4f16f-383e-11eb-ac6d-5800e3ba9968" -> "20b4f170-383e-11eb-aee0-5800e3ba9968" [label=Y]
+	"20b4f171-383e-11eb-a14d-5800e3ba9968" [label="samples = 1
+ value = 2.0" color=pink style=filled]
+	"20b4f170-383e-11eb-aee0-5800e3ba9968" -> "20b4f171-383e-11eb-a14d-5800e3ba9968" [label=Y]
+	"20b4f172-383e-11eb-9e96-5800e3ba9968" [label="samples = 29
+ value = 1.0" color=pink style=filled]
+	"20b4f170-383e-11eb-aee0-5800e3ba9968" -> "20b4f172-383e-11eb-9e96-5800e3ba9968" [label=N]
+	"20b4f173-383e-11eb-afd1-5800e3ba9968" [label="pixel_0_3 <= 5.0 ? " color=purple style=filled]
+	"20b4f16f-383e-11eb-ac6d-5800e3ba9968" -> "20b4f173-383e-11eb-afd1-5800e3ba9968" [label=N]
+	"20b4f174-383e-11eb-8e66-5800e3ba9968" [label="pixel_0_3 <= 1.0 ? " color=green style=filled]
+	"20b4f173-383e-11eb-afd1-5800e3ba9968" -> "20b4f174-383e-11eb-8e66-5800e3ba9968" [label=Y]
+	"20b4f175-383e-11eb-9fea-5800e3ba9968" [label="samples = 1
+ value = 6.0" color=green style=filled]
+	"20b4f174-383e-11eb-8e66-5800e3ba9968" -> "20b4f175-383e-11eb-9fea-5800e3ba9968" [label=Y]
+	"20b4f176-383e-11eb-9301-5800e3ba9968" [label="samples = 1
+ value = 4.0" color=green style=filled]
+	"20b4f174-383e-11eb-8e66-5800e3ba9968" -> "20b4f176-383e-11eb-9301-5800e3ba9968" [label=N]
+	"20b4f177-383e-11eb-a2b7-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=green style=filled]
+	"20b4f173-383e-11eb-afd1-5800e3ba9968" -> "20b4f177-383e-11eb-a2b7-5800e3ba9968" [label=N]
+	"20b4f178-383e-11eb-a336-5800e3ba9968" [label="samples = 1
+ value = 1.0" color=red style=filled]
+	"20b4f177-383e-11eb-a2b7-5800e3ba9968" -> "20b4f178-383e-11eb-a336-5800e3ba9968" [label=Y]
+	"20b4f179-383e-11eb-b8d1-5800e3ba9968" [label="samples = 1
+ value = 3.0" color=red style=filled]
+	"20b4f177-383e-11eb-a2b7-5800e3ba9968" -> "20b4f179-383e-11eb-b8d1-5800e3ba9968" [label=N]
+	"20b4f17a-383e-11eb-afdf-5800e3ba9968" [label="pixel_2_2 <= 7.0 ? " color=red style=filled]
+	"20b31d8f-383e-11eb-954e-5800e3ba9968" -> "20b4f17a-383e-11eb-afdf-5800e3ba9968" [label=N]
+	"20b4f17b-383e-11eb-85c8-5800e3ba9968" [label="pixel_0_2 <= 5.0 ? " color=tomato style=filled]
+	"20b4f17a-383e-11eb-afdf-5800e3ba9968" -> "20b4f17b-383e-11eb-85c8-5800e3ba9968" [label=Y]
+	"20b4f17c-383e-11eb-8ddb-5800e3ba9968" [label="pixel_0_2 <= 3.0 ? " color=orange style=filled]
+	"20b4f17b-383e-11eb-85c8-5800e3ba9968" -> "20b4f17c-383e-11eb-8ddb-5800e3ba9968" [label=Y]
+	"20b4f17d-383e-11eb-b79d-5800e3ba9968" [label="samples = 1
+ value = 8.0" color=tomato style=filled]
+	"20b4f17c-383e-11eb-8ddb-5800e3ba9968" -> "20b4f17d-383e-11eb-b79d-5800e3ba9968" [label=Y]
+	"20b4f17e-383e-11eb-8872-5800e3ba9968" [label="samples = 1
+ value = 5.0" color=tomato style=filled]
+	"20b4f17c-383e-11eb-8ddb-5800e3ba9968" -> "20b4f17e-383e-11eb-8872-5800e3ba9968" [label=N]
+	"20b58d78-383e-11eb-9ef4-5800e3ba9968" [label="samples = 3
+ value = 3.0" color=orange style=filled]
+	"20b4f17b-383e-11eb-85c8-5800e3ba9968" -> "20b58d78-383e-11eb-9ef4-5800e3ba9968" [label=N]
+	"20b58d79-383e-11eb-a243-5800e3ba9968" [label="samples = 107
+ value = 5.0" color=tomato style=filled]
+	"20b4f17a-383e-11eb-afdf-5800e3ba9968" -> "20b58d79-383e-11eb-a243-5800e3ba9968" [label=N]
+	"20b58d7a-383e-11eb-a53e-5800e3ba9968" [label="pixel_5_5 <= 0.0 ? " color=purple style=filled]
+	"20b31d8e-383e-11eb-95e8-5800e3ba9968" -> "20b58d7a-383e-11eb-a53e-5800e3ba9968" [label=N]
+	"20b58d7b-383e-11eb-a739-5800e3ba9968" [label="pixel_3_2 <= 6.0 ? " color=pink style=filled]
+	"20b58d7a-383e-11eb-a53e-5800e3ba9968" -> "20b58d7b-383e-11eb-a739-5800e3ba9968" [label=Y]
+	"20b58d7c-383e-11eb-9f31-5800e3ba9968" [label="samples = 11
+ value = 2.0" color=yellow style=filled]
+	"20b58d7b-383e-11eb-a739-5800e3ba9968" -> "20b58d7c-383e-11eb-9f31-5800e3ba9968" [label=Y]
+	"20b58d7d-383e-11eb-a700-5800e3ba9968" [label="pixel_1_4 <= 10.0 ? " color=yellow style=filled]
+	"20b58d7b-383e-11eb-a739-5800e3ba9968" -> "20b58d7d-383e-11eb-a700-5800e3ba9968" [label=N]
+	"20b58d7e-383e-11eb-a0a8-5800e3ba9968" [label="pixel_0_1 <= 0.0 ? " color=skyblue style=filled]
+	"20b58d7d-383e-11eb-a700-5800e3ba9968" -> "20b58d7e-383e-11eb-a0a8-5800e3ba9968" [label=Y]
+	"20b58d7f-383e-11eb-b6ef-5800e3ba9968" [label="samples = 3
+ value = 6.0" color=green style=filled]
+	"20b58d7e-383e-11eb-a0a8-5800e3ba9968" -> "20b58d7f-383e-11eb-b6ef-5800e3ba9968" [label=Y]
+	"20b58d80-383e-11eb-b3c7-5800e3ba9968" [label="samples = 5
+ value = 5.0" color=green style=filled]
+	"20b58d7e-383e-11eb-a0a8-5800e3ba9968" -> "20b58d80-383e-11eb-b3c7-5800e3ba9968" [label=N]
+	"20b58d81-383e-11eb-bd9b-5800e3ba9968" [label="samples = 7
+ value = 1.0" color=skyblue style=filled]
+	"20b58d7d-383e-11eb-a700-5800e3ba9968" -> "20b58d81-383e-11eb-bd9b-5800e3ba9968" [label=N]
+	"20b58d82-383e-11eb-a449-5800e3ba9968" [label="pixel_7_5 <= 3.0 ? " color=pink style=filled]
+	"20b58d7a-383e-11eb-a53e-5800e3ba9968" -> "20b58d82-383e-11eb-a449-5800e3ba9968" [label=N]
+	"20b58d83-383e-11eb-9ca3-5800e3ba9968" [label="samples = 8
+ value = 4.0" color=tomato style=filled]
+	"20b58d82-383e-11eb-a449-5800e3ba9968" -> "20b58d83-383e-11eb-9ca3-5800e3ba9968" [label=Y]
+	"20b58d84-383e-11eb-8823-5800e3ba9968" [label="pixel_6_2 <= 2.0 ? " color=tomato style=filled]
+	"20b58d82-383e-11eb-a449-5800e3ba9968" -> "20b58d84-383e-11eb-8823-5800e3ba9968" [label=N]
+	"20b58d85-383e-11eb-8afa-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=purple style=filled]
+	"20b58d84-383e-11eb-8823-5800e3ba9968" -> "20b58d85-383e-11eb-8afa-5800e3ba9968" [label=Y]
+	"20b58d86-383e-11eb-b0b2-5800e3ba9968" [label="pixel_0_3 <= 5.0 ? " color=purple style=filled]
+	"20b58d85-383e-11eb-8afa-5800e3ba9968" -> "20b58d86-383e-11eb-b0b2-5800e3ba9968" [label=Y]
+	"20b58d87-383e-11eb-b7bb-5800e3ba9968" [label="samples = 1
+ value = 4.0" color=green style=filled]
+	"20b58d86-383e-11eb-b0b2-5800e3ba9968" -> "20b58d87-383e-11eb-b7bb-5800e3ba9968" [label=Y]
+	"20b58d88-383e-11eb-ba35-5800e3ba9968" [label="samples = 1
+ value = 6.0" color=green style=filled]
+	"20b58d86-383e-11eb-b0b2-5800e3ba9968" -> "20b58d88-383e-11eb-ba35-5800e3ba9968" [label=N]
+	"20b58d89-383e-11eb-af15-5800e3ba9968" [label="samples = 1
+ value = 5.0" color=purple style=filled]
+	"20b58d85-383e-11eb-8afa-5800e3ba9968" -> "20b58d89-383e-11eb-af15-5800e3ba9968" [label=N]
+	"20b58d8a-383e-11eb-909f-5800e3ba9968" [label="pixel_1_2 <= 15.0 ? " color=purple style=filled]
+	"20b58d84-383e-11eb-8823-5800e3ba9968" -> "20b58d8a-383e-11eb-909f-5800e3ba9968" [label=N]
+	"20b58d8b-383e-11eb-b2fa-5800e3ba9968" [label="samples = 129
+ value = 6.0" color=purple style=filled]
+	"20b58d8a-383e-11eb-909f-5800e3ba9968" -> "20b58d8b-383e-11eb-b2fa-5800e3ba9968" [label=Y]
+	"20b58d8c-383e-11eb-891c-5800e3ba9968" [label="samples = 1
+ value = 2.0" color=purple style=filled]
+	"20b58d8a-383e-11eb-909f-5800e3ba9968" -> "20b58d8c-383e-11eb-891c-5800e3ba9968" [label=N]
+	"20b58d8d-383e-11eb-99a4-5800e3ba9968" [label="pixel_2_3 <= 8.0 ? " color=yellow style=filled]
+	"20b31d8d-383e-11eb-8c72-5800e3ba9968" -> "20b58d8d-383e-11eb-99a4-5800e3ba9968" [label=N]
+	"20b58d8e-383e-11eb-b491-5800e3ba9968" [label="pixel_5_3 <= 1.0 ? " color=yellow style=filled]
+	"20b58d8d-383e-11eb-99a4-5800e3ba9968" -> "20b58d8e-383e-11eb-b491-5800e3ba9968" [label=Y]
+	"20b58d8f-383e-11eb-8fa6-5800e3ba9968" [label="pixel_3_2 <= 9.0 ? " color=green style=filled]
+	"20b58d8e-383e-11eb-b491-5800e3ba9968" -> "20b58d8f-383e-11eb-8fa6-5800e3ba9968" [label=Y]
+	"20b62982-383e-11eb-b287-5800e3ba9968" [label="pixel_3_5 <= 11.0 ? " color=purple style=filled]
+	"20b58d8f-383e-11eb-8fa6-5800e3ba9968" -> "20b62982-383e-11eb-b287-5800e3ba9968" [label=Y]
+	"20b62983-383e-11eb-b3b0-5800e3ba9968" [label="pixel_4_2 <= 5.0 ? " color=tomato style=filled]
+	"20b62982-383e-11eb-b287-5800e3ba9968" -> "20b62983-383e-11eb-b3b0-5800e3ba9968" [label=Y]
+	"20b62984-383e-11eb-b414-5800e3ba9968" [label="samples = 96
+ value = 3.0" color=skyblue style=filled]
+	"20b62983-383e-11eb-b3b0-5800e3ba9968" -> "20b62984-383e-11eb-b414-5800e3ba9968" [label=Y]
+	"20b62985-383e-11eb-8124-5800e3ba9968" [label="samples = 2
+ value = 8.0" color=skyblue style=filled]
+	"20b62983-383e-11eb-b3b0-5800e3ba9968" -> "20b62985-383e-11eb-8124-5800e3ba9968" [label=N]
+	"20b62986-383e-11eb-aa96-5800e3ba9968" [label="pixel_3_2 <= 1.0 ? " color=tomato style=filled]
+	"20b62982-383e-11eb-b287-5800e3ba9968" -> "20b62986-383e-11eb-aa96-5800e3ba9968" [label=N]
+	"20b62987-383e-11eb-b11e-5800e3ba9968" [label="pixel_1_2 <= 6.0 ? " color=purple style=filled]
+	"20b62986-383e-11eb-aa96-5800e3ba9968" -> "20b62987-383e-11eb-b11e-5800e3ba9968" [label=Y]
+	"20b62988-383e-11eb-b732-5800e3ba9968" [label="samples = 1
+ value = 2.0" color=red style=filled]
+	"20b62987-383e-11eb-b11e-5800e3ba9968" -> "20b62988-383e-11eb-b732-5800e3ba9968" [label=Y]
+	"20b62989-383e-11eb-80d0-5800e3ba9968" [label="samples = 12
+ value = 3.0" color=red style=filled]
+	"20b62987-383e-11eb-b11e-5800e3ba9968" -> "20b62989-383e-11eb-80d0-5800e3ba9968" [label=N]
+	"20b6298a-383e-11eb-aed9-5800e3ba9968" [label="pixel_3_3 <= 8.0 ? " color=purple style=filled]
+	"20b62986-383e-11eb-aa96-5800e3ba9968" -> "20b6298a-383e-11eb-aed9-5800e3ba9968" [label=N]
+	"20b6298b-383e-11eb-9be9-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=green style=filled]
+	"20b6298a-383e-11eb-aed9-5800e3ba9968" -> "20b6298b-383e-11eb-9be9-5800e3ba9968" [label=Y]
+	"20b6298c-383e-11eb-b5ba-5800e3ba9968" [label="samples = 1
+ value = 7.0" color=purple style=filled]
+	"20b6298b-383e-11eb-9be9-5800e3ba9968" -> "20b6298c-383e-11eb-b5ba-5800e3ba9968" [label=Y]
+	"20b6298d-383e-11eb-af88-5800e3ba9968" [label="samples = 2
+ value = 2.0" color=purple style=filled]
+	"20b6298b-383e-11eb-9be9-5800e3ba9968" -> "20b6298d-383e-11eb-af88-5800e3ba9968" [label=N]
+	"20b6298e-383e-11eb-864a-5800e3ba9968" [label="samples = 5
+ value = 9.0" color=green style=filled]
+	"20b6298a-383e-11eb-aed9-5800e3ba9968" -> "20b6298e-383e-11eb-864a-5800e3ba9968" [label=N]
+	"20b6298f-383e-11eb-bfc0-5800e3ba9968" [label="pixel_5_2 <= 3.0 ? " color=purple style=filled]
+	"20b58d8f-383e-11eb-8fa6-5800e3ba9968" -> "20b6298f-383e-11eb-bfc0-5800e3ba9968" [label=N]
+	"20b62990-383e-11eb-b78e-5800e3ba9968" [label="pixel_4_3 <= 2.0 ? " color=pink style=filled]
+	"20b6298f-383e-11eb-bfc0-5800e3ba9968" -> "20b62990-383e-11eb-b78e-5800e3ba9968" [label=Y]
+	"20b62991-383e-11eb-ac2a-5800e3ba9968" [label="pixel_0_2 <= 6.0 ? " color=red style=filled]
+	"20b62990-383e-11eb-b78e-5800e3ba9968" -> "20b62991-383e-11eb-ac2a-5800e3ba9968" [label=Y]
+	"20b62992-383e-11eb-a5eb-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=red style=filled]
+	"20b62991-383e-11eb-ac2a-5800e3ba9968" -> "20b62992-383e-11eb-a5eb-5800e3ba9968" [label=Y]
+	"20b62993-383e-11eb-8dc2-5800e3ba9968" [label="samples = 1
+ value = 1.0" color=red style=filled]
+	"20b62992-383e-11eb-a5eb-5800e3ba9968" -> "20b62993-383e-11eb-8dc2-5800e3ba9968" [label=Y]
+	"20b62994-383e-11eb-a5b8-5800e3ba9968" [label="samples = 1
+ value = 9.0" color=red style=filled]
+	"20b62992-383e-11eb-a5eb-5800e3ba9968" -> "20b62994-383e-11eb-a5b8-5800e3ba9968" [label=N]
+	"20b62995-383e-11eb-a77f-5800e3ba9968" [label="samples = 1
+ value = 5.0" color=red style=filled]
+	"20b62991-383e-11eb-ac2a-5800e3ba9968" -> "20b62995-383e-11eb-a77f-5800e3ba9968" [label=N]
+	"20b62996-383e-11eb-b1a8-5800e3ba9968" [label="samples = 14
+ value = 9.0" color=red style=filled]
+	"20b62990-383e-11eb-b78e-5800e3ba9968" -> "20b62996-383e-11eb-b1a8-5800e3ba9968" [label=N]
+	"20b62997-383e-11eb-8cdb-5800e3ba9968" [label="samples = 3
+ value = 8.0" color=pink style=filled]
+	"20b6298f-383e-11eb-bfc0-5800e3ba9968" -> "20b62997-383e-11eb-8cdb-5800e3ba9968" [label=N]
+	"20b62998-383e-11eb-9513-5800e3ba9968" [label="pixel_6_5 <= 3.0 ? " color=green style=filled]
+	"20b58d8e-383e-11eb-b491-5800e3ba9968" -> "20b62998-383e-11eb-9513-5800e3ba9968" [label=N]
+	"20b62999-383e-11eb-a376-5800e3ba9968" [label="pixel_4_5 <= 0.0 ? " color=yellow style=filled]
+	"20b62998-383e-11eb-9513-5800e3ba9968" -> "20b62999-383e-11eb-a376-5800e3ba9968" [label=Y]
+	"20b6299a-383e-11eb-a33b-5800e3ba9968" [label="pixel_5_2 <= 1.0 ? " color=pink style=filled]
+	"20b62999-383e-11eb-a376-5800e3ba9968" -> "20b6299a-383e-11eb-a33b-5800e3ba9968" [label=Y]
+	"20b6299b-383e-11eb-b362-5800e3ba9968" [label="pixel_0_1 <= 0.0 ? " color=skyblue style=filled]
+	"20b6299a-383e-11eb-a33b-5800e3ba9968" -> "20b6299b-383e-11eb-b362-5800e3ba9968" [label=Y]
+	"20b6299c-383e-11eb-8781-5800e3ba9968" [label="pixel_0_2 <= 1.0 ? " color=orange style=filled]
+	"20b6299b-383e-11eb-b362-5800e3ba9968" -> "20b6299c-383e-11eb-8781-5800e3ba9968" [label=Y]
+	"20b6299d-383e-11eb-a692-5800e3ba9968" [label="samples = 1
+ value = 9.0" color=tomato style=filled]
+	"20b6299c-383e-11eb-8781-5800e3ba9968" -> "20b6299d-383e-11eb-a692-5800e3ba9968" [label=Y]
+	"20b6299e-383e-11eb-b8fb-5800e3ba9968" [label="samples = 3
+ value = 4.0" color=tomato style=filled]
+	"20b6299c-383e-11eb-8781-5800e3ba9968" -> "20b6299e-383e-11eb-b8fb-5800e3ba9968" [label=N]
+	"20b6299f-383e-11eb-a032-5800e3ba9968" [label="samples = 3
+ value = 3.0" color=orange style=filled]
+	"20b6299b-383e-11eb-b362-5800e3ba9968" -> "20b6299f-383e-11eb-a032-5800e3ba9968" [label=N]
+	"20b629a0-383e-11eb-aeea-5800e3ba9968" [label="pixel_3_3 <= 1.0 ? " color=skyblue style=filled]
+	"20b6299a-383e-11eb-a33b-5800e3ba9968" -> "20b629a0-383e-11eb-aeea-5800e3ba9968" [label=N]
+	"20b629a1-383e-11eb-a811-5800e3ba9968" [label="samples = 2
+ value = 2.0" color=tomato style=filled]
+	"20b629a0-383e-11eb-aeea-5800e3ba9968" -> "20b629a1-383e-11eb-a811-5800e3ba9968" [label=Y]
+	"20b629a2-383e-11eb-9b91-5800e3ba9968" [label="samples = 9
+ value = 8.0" color=tomato style=filled]
+	"20b629a0-383e-11eb-aeea-5800e3ba9968" -> "20b629a2-383e-11eb-9b91-5800e3ba9968" [label=N]
+	"20b629a3-383e-11eb-bf44-5800e3ba9968" [label="pixel_3_2 <= 12.0 ? " color=pink style=filled]
+	"20b62999-383e-11eb-a376-5800e3ba9968" -> "20b629a3-383e-11eb-bf44-5800e3ba9968" [label=N]
+	"20b629a4-383e-11eb-9ffa-5800e3ba9968" [label="samples = 42
+ value = 7.0" color=pink style=filled]
+	"20b629a3-383e-11eb-bf44-5800e3ba9968" -> "20b629a4-383e-11eb-9ffa-5800e3ba9968" [label=Y]
+	"20b6c58c-383e-11eb-a784-5800e3ba9968" [label="pixel_0_5 <= 0.0 ? " color=pink style=filled]
+	"20b629a3-383e-11eb-bf44-5800e3ba9968" -> "20b6c58c-383e-11eb-a784-5800e3ba9968" [label=N]
+	"20b6c58d-383e-11eb-8280-5800e3ba9968" [label="samples = 4
+ value = 4.0" color=pink style=filled]
+	"20b6c58c-383e-11eb-a784-5800e3ba9968" -> "20b6c58d-383e-11eb-8280-5800e3ba9968" [label=Y]
+	"20b6c58e-383e-11eb-a8dd-5800e3ba9968" [label="pixel_0_2 <= 3.0 ? " color=pink style=filled]
+	"20b6c58c-383e-11eb-a784-5800e3ba9968" -> "20b6c58e-383e-11eb-a8dd-5800e3ba9968" [label=N]
+	"20b6c58f-383e-11eb-9b82-5800e3ba9968" [label="samples = 3
+ value = 9.0" color=skyblue style=filled]
+	"20b6c58e-383e-11eb-a8dd-5800e3ba9968" -> "20b6c58f-383e-11eb-9b82-5800e3ba9968" [label=Y]
+	"20b6c590-383e-11eb-a5d9-5800e3ba9968" [label="samples = 2
+ value = 7.0" color=skyblue style=filled]
+	"20b6c58e-383e-11eb-a8dd-5800e3ba9968" -> "20b6c590-383e-11eb-a5d9-5800e3ba9968" [label=N]
+	"20b6c591-383e-11eb-864a-5800e3ba9968" [label="pixel_3_2 <= 7.0 ? " color=yellow style=filled]
+	"20b62998-383e-11eb-9513-5800e3ba9968" -> "20b6c591-383e-11eb-864a-5800e3ba9968" [label=N]
+	"20b6c592-383e-11eb-9da8-5800e3ba9968" [label="pixel_3_3 <= 7.0 ? " color=red style=filled]
+	"20b6c591-383e-11eb-864a-5800e3ba9968" -> "20b6c592-383e-11eb-9da8-5800e3ba9968" [label=Y]
+	"20b6c593-383e-11eb-b0e7-5800e3ba9968" [label="pixel_4_6 <= 0.0 ? " color=green style=filled]
+	"20b6c592-383e-11eb-9da8-5800e3ba9968" -> "20b6c593-383e-11eb-b0e7-5800e3ba9968" [label=Y]
+	"20b6c594-383e-11eb-998c-5800e3ba9968" [label="pixel_6_2 <= 0.0 ? " color=yellow style=filled]
+	"20b6c593-383e-11eb-b0e7-5800e3ba9968" -> "20b6c594-383e-11eb-998c-5800e3ba9968" [label=Y]
+	"20b6c595-383e-11eb-955e-5800e3ba9968" [label="pixel_0_2 <= 3.0 ? " color=skyblue style=filled]
+	"20b6c594-383e-11eb-998c-5800e3ba9968" -> "20b6c595-383e-11eb-955e-5800e3ba9968" [label=Y]
+	"20b6c596-383e-11eb-a62c-5800e3ba9968" [label="samples = 1
+ value = 2.0" color=tomato style=filled]
+	"20b6c595-383e-11eb-955e-5800e3ba9968" -> "20b6c596-383e-11eb-a62c-5800e3ba9968" [label=Y]
+	"20b6c597-383e-11eb-8b0e-5800e3ba9968" [label="samples = 1
+ value = 3.0" color=tomato style=filled]
+	"20b6c595-383e-11eb-955e-5800e3ba9968" -> "20b6c597-383e-11eb-8b0e-5800e3ba9968" [label=N]
+	"20b6c598-383e-11eb-8fb6-5800e3ba9968" [label="samples = 69
+ value = 2.0" color=skyblue style=filled]
+	"20b6c594-383e-11eb-998c-5800e3ba9968" -> "20b6c598-383e-11eb-8fb6-5800e3ba9968" [label=N]
+	"20b6c599-383e-11eb-8700-5800e3ba9968" [label="pixel_0_2 <= 2.0 ? " color=yellow style=filled]
+	"20b6c593-383e-11eb-b0e7-5800e3ba9968" -> "20b6c599-383e-11eb-8700-5800e3ba9968" [label=N]
+	"20b6c59a-383e-11eb-b876-5800e3ba9968" [label="samples = 1
+ value = 9.0" color=yellow style=filled]
+	"20b6c599-383e-11eb-8700-5800e3ba9968" -> "20b6c59a-383e-11eb-b876-5800e3ba9968" [label=Y]
+	"20b6c59b-383e-11eb-9d24-5800e3ba9968" [label="samples = 1
+ value = 3.0" color=yellow style=filled]
+	"20b6c599-383e-11eb-8700-5800e3ba9968" -> "20b6c59b-383e-11eb-9d24-5800e3ba9968" [label=N]
+	"20b7fda2-383e-11eb-a24a-5800e3ba9968" [label="pixel_3_5 <= 2.0 ? " color=green style=filled]
+	"20b6c592-383e-11eb-9da8-5800e3ba9968" -> "20b7fda2-383e-11eb-a24a-5800e3ba9968" [label=N]
+	"20b7fda3-383e-11eb-adb1-5800e3ba9968" [label="pixel_5_2 <= 1.0 ? " color=pink style=filled]
+	"20b7fda2-383e-11eb-a24a-5800e3ba9968" -> "20b7fda3-383e-11eb-adb1-5800e3ba9968" [label=Y]
+	"20b7fda4-383e-11eb-9728-5800e3ba9968" [label="samples = 4
+ value = 3.0" color=tomato style=filled]
+	"20b7fda3-383e-11eb-adb1-5800e3ba9968" -> "20b7fda4-383e-11eb-9728-5800e3ba9968" [label=Y]
+	"20b7fda5-383e-11eb-81aa-5800e3ba9968" [label="samples = 10
+ value = 2.0" color=tomato style=filled]
+	"20b7fda3-383e-11eb-adb1-5800e3ba9968" -> "20b7fda5-383e-11eb-81aa-5800e3ba9968" [label=N]
+	"20b7fda6-383e-11eb-9d3c-5800e3ba9968" [label="pixel_6_5 <= 11.0 ? " color=pink style=filled]
+	"20b7fda2-383e-11eb-a24a-5800e3ba9968" -> "20b7fda6-383e-11eb-9d3c-5800e3ba9968" [label=N]
+	"20b7fda7-383e-11eb-b7ce-5800e3ba9968" [label="pixel_0_3 <= 0.0 ? " color=purple style=filled]
+	"20b7fda6-383e-11eb-9d3c-5800e3ba9968" -> "20b7fda7-383e-11eb-b7ce-5800e3ba9968" [label=Y]
+	"20b7fda8-383e-11eb-97de-5800e3ba9968" [label="samples = 1
+ value = 1.0" color=pink style=filled]
+	"20b7fda7-383e-11eb-b7ce-5800e3ba9968" -> "20b7fda8-383e-11eb-97de-5800e3ba9968" [label=Y]
+	"20b7fda9-383e-11eb-a3d5-5800e3ba9968" [label="samples = 4
+ value = 8.0" color=pink style=filled]
+	"20b7fda7-383e-11eb-b7ce-5800e3ba9968" -> "20b7fda9-383e-11eb-a3d5-5800e3ba9968" [label=N]
+	"20b7fdaa-383e-11eb-b637-5800e3ba9968" [label="pixel_0_2 <= 1.0 ? " color=purple style=filled]
+	"20b7fda6-383e-11eb-9d3c-5800e3ba9968" -> "20b7fdaa-383e-11eb-b637-5800e3ba9968" [label=N]
+	"20b7fdab-383e-11eb-b896-5800e3ba9968" [label="samples = 1
+ value = 8.0" color=skyblue style=filled]
+	"20b7fdaa-383e-11eb-b637-5800e3ba9968" -> "20b7fdab-383e-11eb-b896-5800e3ba9968" [label=Y]
+	"20b7fdac-383e-11eb-a168-5800e3ba9968" [label="samples = 6
+ value = 3.0" color=skyblue style=filled]
+	"20b7fdaa-383e-11eb-b637-5800e3ba9968" -> "20b7fdac-383e-11eb-a168-5800e3ba9968" [label=N]
+	"20b7fdad-383e-11eb-ae13-5800e3ba9968" [label="pixel_7_6 <= 7.0 ? " color=red style=filled]
+	"20b6c591-383e-11eb-864a-5800e3ba9968" -> "20b7fdad-383e-11eb-ae13-5800e3ba9968" [label=N]
+	"20b7fdae-383e-11eb-b73d-5800e3ba9968" [label="samples = 43
+ value = 8.0" color=tomato style=filled]
+	"20b7fdad-383e-11eb-ae13-5800e3ba9968" -> "20b7fdae-383e-11eb-b73d-5800e3ba9968" [label=Y]
+	"20b7fdaf-383e-11eb-b4d2-5800e3ba9968" [label="pixel_0_3 <= 10.0 ? " color=tomato style=filled]
+	"20b7fdad-383e-11eb-ae13-5800e3ba9968" -> "20b7fdaf-383e-11eb-b4d2-5800e3ba9968" [label=N]
+	"20b7fdb0-383e-11eb-b24c-5800e3ba9968" [label="samples = 1
+ value = 8.0" color=yellow style=filled]
+	"20b7fdaf-383e-11eb-b4d2-5800e3ba9968" -> "20b7fdb0-383e-11eb-b24c-5800e3ba9968" [label=Y]
+	"20b7fdb1-383e-11eb-8e11-5800e3ba9968" [label="samples = 4
+ value = 2.0" color=yellow style=filled]
+	"20b7fdaf-383e-11eb-b4d2-5800e3ba9968" -> "20b7fdb1-383e-11eb-8e11-5800e3ba9968" [label=N]
+	"20b7fdb2-383e-11eb-a726-5800e3ba9968" [label="pixel_2_4 <= 13.0 ? " color=yellow style=filled]
+	"20b58d8d-383e-11eb-99a4-5800e3ba9968" -> "20b7fdb2-383e-11eb-a726-5800e3ba9968" [label=N]
+	"20b899b4-383e-11eb-824a-5800e3ba9968" [label="pixel_3_3 <= 6.0 ? " color=orange style=filled]
+	"20b7fdb2-383e-11eb-a726-5800e3ba9968" -> "20b899b4-383e-11eb-824a-5800e3ba9968" [label=Y]
+	"20b899b5-383e-11eb-96d0-5800e3ba9968" [label="pixel_4_1 <= 1.0 ? " color=tomato style=filled]
+	"20b899b4-383e-11eb-824a-5800e3ba9968" -> "20b899b5-383e-11eb-96d0-5800e3ba9968" [label=Y]
+	"20b899b6-383e-11eb-8a40-5800e3ba9968" [label="pixel_7_5 <= 3.0 ? " color=green style=filled]
+	"20b899b5-383e-11eb-96d0-5800e3ba9968" -> "20b899b6-383e-11eb-8a40-5800e3ba9968" [label=Y]
+	"20b899b7-383e-11eb-a9de-5800e3ba9968" [label="pixel_0_2 <= 6.0 ? " color=purple style=filled]
+	"20b899b6-383e-11eb-8a40-5800e3ba9968" -> "20b899b7-383e-11eb-a9de-5800e3ba9968" [label=Y]
+	"20b899b8-383e-11eb-ae20-5800e3ba9968" [label="samples = 4
+ value = 7.0" color=tomato style=filled]
+	"20b899b7-383e-11eb-a9de-5800e3ba9968" -> "20b899b8-383e-11eb-ae20-5800e3ba9968" [label=Y]
+	"20b899b9-383e-11eb-a0bf-5800e3ba9968" [label="samples = 1
+ value = 9.0" color=tomato style=filled]
+	"20b899b7-383e-11eb-a9de-5800e3ba9968" -> "20b899b9-383e-11eb-a0bf-5800e3ba9968" [label=N]
+	"20b899ba-383e-11eb-90c2-5800e3ba9968" [label="pixel_2_1 <= 0.0 ? " color=purple style=filled]
+	"20b899b6-383e-11eb-8a40-5800e3ba9968" -> "20b899ba-383e-11eb-90c2-5800e3ba9968" [label=N]
+	"20b899bb-383e-11eb-82ed-5800e3ba9968" [label="samples = 5
+ value = 2.0" color=orange style=filled]
+	"20b899ba-383e-11eb-90c2-5800e3ba9968" -> "20b899bb-383e-11eb-82ed-5800e3ba9968" [label=Y]
+	"20b899bc-383e-11eb-92a7-5800e3ba9968" [label="samples = 1
+ value = 1.0" color=orange style=filled]
+	"20b899ba-383e-11eb-90c2-5800e3ba9968" -> "20b899bc-383e-11eb-92a7-5800e3ba9968" [label=N]
+	"20b899bd-383e-11eb-9f7c-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=green style=filled]
+	"20b899b5-383e-11eb-96d0-5800e3ba9968" -> "20b899bd-383e-11eb-9f7c-5800e3ba9968" [label=N]
+	"20b899be-383e-11eb-b740-5800e3ba9968" [label="samples = 12
+ value = 4.0" color=pink style=filled]
+	"20b899bd-383e-11eb-9f7c-5800e3ba9968" -> "20b899be-383e-11eb-b740-5800e3ba9968" [label=Y]
+	"20b899bf-383e-11eb-a8fb-5800e3ba9968" [label="samples = 1
+ value = 6.0" color=pink style=filled]
+	"20b899bd-383e-11eb-9f7c-5800e3ba9968" -> "20b899bf-383e-11eb-a8fb-5800e3ba9968" [label=N]
+	"20b899c0-383e-11eb-805f-5800e3ba9968" [label="pixel_5_2 <= 0.0 ? " color=tomato style=filled]
+	"20b899b4-383e-11eb-824a-5800e3ba9968" -> "20b899c0-383e-11eb-805f-5800e3ba9968" [label=N]
+	"20b899c1-383e-11eb-9dcc-5800e3ba9968" [label="pixel_2_5 <= 8.0 ? " color=red style=filled]
+	"20b899c0-383e-11eb-805f-5800e3ba9968" -> "20b899c1-383e-11eb-9dcc-5800e3ba9968" [label=Y]
+	"20b899c2-383e-11eb-a1e2-5800e3ba9968" [label="samples = 4
+ value = 5.0" color=yellow style=filled]
+	"20b899c1-383e-11eb-9dcc-5800e3ba9968" -> "20b899c2-383e-11eb-a1e2-5800e3ba9968" [label=Y]
+	"20b899c3-383e-11eb-b2d1-5800e3ba9968" [label="samples = 6
+ value = 9.0" color=yellow style=filled]
+	"20b899c1-383e-11eb-9dcc-5800e3ba9968" -> "20b899c3-383e-11eb-b2d1-5800e3ba9968" [label=N]
+	"20b899c4-383e-11eb-985c-5800e3ba9968" [label="pixel_4_5 <= 12.0 ? " color=red style=filled]
+	"20b899c0-383e-11eb-805f-5800e3ba9968" -> "20b899c4-383e-11eb-985c-5800e3ba9968" [label=N]
+	"20b899c5-383e-11eb-9e53-5800e3ba9968" [label="pixel_2_5 <= 8.0 ? " color=green style=filled]
+	"20b899c4-383e-11eb-985c-5800e3ba9968" -> "20b899c5-383e-11eb-9e53-5800e3ba9968" [label=Y]
+	"20b899c6-383e-11eb-b58c-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=skyblue style=filled]
+	"20b899c5-383e-11eb-9e53-5800e3ba9968" -> "20b899c6-383e-11eb-b58c-5800e3ba9968" [label=Y]
+	"20b899c7-383e-11eb-84ad-5800e3ba9968" [label="samples = 2
+ value = 6.0" color=red style=filled]
+	"20b899c6-383e-11eb-b58c-5800e3ba9968" -> "20b899c7-383e-11eb-84ad-5800e3ba9968" [label=Y]
+	"20b899c8-383e-11eb-9d4f-5800e3ba9968" [label="samples = 1
+ value = 8.0" color=red style=filled]
+	"20b899c6-383e-11eb-b58c-5800e3ba9968" -> "20b899c8-383e-11eb-9d4f-5800e3ba9968" [label=N]
+	"20b899c9-383e-11eb-8c0e-5800e3ba9968" [label="samples = 36
+ value = 8.0" color=skyblue style=filled]
+	"20b899c5-383e-11eb-9e53-5800e3ba9968" -> "20b899c9-383e-11eb-8c0e-5800e3ba9968" [label=N]
+	"20b899ca-383e-11eb-93bc-5800e3ba9968" [label="pixel_0_3 <= 2.0 ? " color=green style=filled]
+	"20b899c4-383e-11eb-985c-5800e3ba9968" -> "20b899ca-383e-11eb-93bc-5800e3ba9968" [label=N]
+	"20b899cb-383e-11eb-83e7-5800e3ba9968" [label="samples = 2
+ value = 4.0" color=tomato style=filled]
+	"20b899ca-383e-11eb-93bc-5800e3ba9968" -> "20b899cb-383e-11eb-83e7-5800e3ba9968" [label=Y]
+	"20b899cc-383e-11eb-bf7a-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=tomato style=filled]
+	"20b899ca-383e-11eb-93bc-5800e3ba9968" -> "20b899cc-383e-11eb-bf7a-5800e3ba9968" [label=N]
+	"20b899cd-383e-11eb-a1f4-5800e3ba9968" [label="samples = 2
+ value = 0.0" color=yellow style=filled]
+	"20b899cc-383e-11eb-bf7a-5800e3ba9968" -> "20b899cd-383e-11eb-a1f4-5800e3ba9968" [label=Y]
+	"20b935cc-383e-11eb-a2c4-5800e3ba9968" [label="samples = 1
+ value = 8.0" color=yellow style=filled]
+	"20b899cc-383e-11eb-bf7a-5800e3ba9968" -> "20b935cc-383e-11eb-a2c4-5800e3ba9968" [label=N]
+	"20b935cd-383e-11eb-8989-5800e3ba9968" [label="pixel_1_2 <= 9.0 ? " color=orange style=filled]
+	"20b7fdb2-383e-11eb-a726-5800e3ba9968" -> "20b935cd-383e-11eb-8989-5800e3ba9968" [label=N]
+	"20b935ce-383e-11eb-b166-5800e3ba9968" [label="pixel_5_6 <= 0.0 ? " color=red style=filled]
+	"20b935cd-383e-11eb-8989-5800e3ba9968" -> "20b935ce-383e-11eb-b166-5800e3ba9968" [label=Y]
+	"20b935cf-383e-11eb-88f9-5800e3ba9968" [label="pixel_6_2 <= 11.0 ? " color=red style=filled]
+	"20b935ce-383e-11eb-b166-5800e3ba9968" -> "20b935cf-383e-11eb-88f9-5800e3ba9968" [label=Y]
+	"20b935d0-383e-11eb-a028-5800e3ba9968" [label="samples = 77
+ value = 1.0" color=pink style=filled]
+	"20b935cf-383e-11eb-88f9-5800e3ba9968" -> "20b935d0-383e-11eb-a028-5800e3ba9968" [label=Y]
+	"20b935d1-383e-11eb-88d5-5800e3ba9968" [label="pixel_6_3 <= 12.0 ? " color=pink style=filled]
+	"20b935cf-383e-11eb-88f9-5800e3ba9968" -> "20b935d1-383e-11eb-88d5-5800e3ba9968" [label=N]
+	"20b935d2-383e-11eb-849c-5800e3ba9968" [label="samples = 3
+ value = 8.0" color=pink style=filled]
+	"20b935d1-383e-11eb-88d5-5800e3ba9968" -> "20b935d2-383e-11eb-849c-5800e3ba9968" [label=Y]
+	"20b9d2a4-383e-11eb-9b40-5800e3ba9968" [label="samples = 5
+ value = 1.0" color=pink style=filled]
+	"20b935d1-383e-11eb-88d5-5800e3ba9968" -> "20b9d2a4-383e-11eb-9b40-5800e3ba9968" [label=N]
+	"20b9d2a5-383e-11eb-91da-5800e3ba9968" [label="pixel_5_1 <= 1.0 ? " color=red style=filled]
+	"20b935ce-383e-11eb-b166-5800e3ba9968" -> "20b9d2a5-383e-11eb-91da-5800e3ba9968" [label=N]
+	"20b9d2a6-383e-11eb-abf1-5800e3ba9968" [label="pixel_1_2 <= 2.0 ? " color=pink style=filled]
+	"20b9d2a5-383e-11eb-91da-5800e3ba9968" -> "20b9d2a6-383e-11eb-abf1-5800e3ba9968" [label=Y]
+	"20b9d2a7-383e-11eb-a154-5800e3ba9968" [label="samples = 5
+ value = 1.0" color=tomato style=filled]
+	"20b9d2a6-383e-11eb-abf1-5800e3ba9968" -> "20b9d2a7-383e-11eb-a154-5800e3ba9968" [label=Y]
+	"20b9d2a8-383e-11eb-a51c-5800e3ba9968" [label="samples = 2
+ value = 8.0" color=tomato style=filled]
+	"20b9d2a6-383e-11eb-abf1-5800e3ba9968" -> "20b9d2a8-383e-11eb-a51c-5800e3ba9968" [label=N]
+	"20b9d2a9-383e-11eb-8893-5800e3ba9968" [label="samples = 10
+ value = 4.0" color=pink style=filled]
+	"20b9d2a5-383e-11eb-91da-5800e3ba9968" -> "20b9d2a9-383e-11eb-8893-5800e3ba9968" [label=N]
+	"20b9d2aa-383e-11eb-b2d8-5800e3ba9968" [label="pixel_5_2 <= 7.0 ? " color=red style=filled]
+	"20b935cd-383e-11eb-8989-5800e3ba9968" -> "20b9d2aa-383e-11eb-b2d8-5800e3ba9968" [label=N]
+	"20b9d2ab-383e-11eb-ad51-5800e3ba9968" [label="pixel_6_3 <= 13.0 ? " color=pink style=filled]
+	"20b9d2aa-383e-11eb-b2d8-5800e3ba9968" -> "20b9d2ab-383e-11eb-ad51-5800e3ba9968" [label=Y]
+	"20b9d2ac-383e-11eb-a31f-5800e3ba9968" [label="pixel_0_4 <= 13.0 ? " color=red style=filled]
+	"20b9d2ab-383e-11eb-ad51-5800e3ba9968" -> "20b9d2ac-383e-11eb-a31f-5800e3ba9968" [label=Y]
+	"20b9d2ad-383e-11eb-8fe2-5800e3ba9968" [label="pixel_0_1 <= 1.0 ? " color=yellow style=filled]
+	"20b9d2ac-383e-11eb-a31f-5800e3ba9968" -> "20b9d2ad-383e-11eb-8fe2-5800e3ba9968" [label=Y]
+	"20b9d2ae-383e-11eb-926a-5800e3ba9968" [label="samples = 4
+ value = 9.0" color=red style=filled]
+	"20b9d2ad-383e-11eb-8fe2-5800e3ba9968" -> "20b9d2ae-383e-11eb-926a-5800e3ba9968" [label=Y]
+	"20b9d2af-383e-11eb-889a-5800e3ba9968" [label="samples = 1
+ value = 7.0" color=red style=filled]
+	"20b9d2ad-383e-11eb-8fe2-5800e3ba9968" -> "20b9d2af-383e-11eb-889a-5800e3ba9968" [label=N]
+	"20b9d2b0-383e-11eb-829e-5800e3ba9968" [label="pixel_0_3 <= 14.0 ? " color=yellow style=filled]
+	"20b9d2ac-383e-11eb-a31f-5800e3ba9968" -> "20b9d2b0-383e-11eb-829e-5800e3ba9968" [label=N]
+	"20b9d2b1-383e-11eb-af04-5800e3ba9968" [label="samples = 1
+ value = 9.0" color=yellow style=filled]
+	"20b9d2b0-383e-11eb-829e-5800e3ba9968" -> "20b9d2b1-383e-11eb-af04-5800e3ba9968" [label=Y]
+	"20b9d2b2-383e-11eb-8398-5800e3ba9968" [label="samples = 5
+ value = 3.0" color=yellow style=filled]
+	"20b9d2b0-383e-11eb-829e-5800e3ba9968" -> "20b9d2b2-383e-11eb-8398-5800e3ba9968" [label=N]
+	"20b9d2b3-383e-11eb-8299-5800e3ba9968" [label="pixel_6_2 <= 4.0 ? " color=red style=filled]
+	"20b9d2ab-383e-11eb-ad51-5800e3ba9968" -> "20b9d2b3-383e-11eb-8299-5800e3ba9968" [label=N]
+	"20b9d2b4-383e-11eb-a076-5800e3ba9968" [label="pixel_0_2 <= 1.0 ? " color=skyblue style=filled]
+	"20b9d2b3-383e-11eb-8299-5800e3ba9968" -> "20b9d2b4-383e-11eb-a076-5800e3ba9968" [label=Y]
+	"20b9d2b5-383e-11eb-8a32-5800e3ba9968" [label="samples = 2
+ value = 1.0" color=purple style=filled]
+	"20b9d2b4-383e-11eb-a076-5800e3ba9968" -> "20b9d2b5-383e-11eb-8a32-5800e3ba9968" [label=Y]
+	"20b9d2b6-383e-11eb-83d8-5800e3ba9968" [label="samples = 1
+ value = 9.0" color=purple style=filled]
+	"20b9d2b4-383e-11eb-a076-5800e3ba9968" -> "20b9d2b6-383e-11eb-83d8-5800e3ba9968" [label=N]
+	"20b9d2b7-383e-11eb-b7ed-5800e3ba9968" [label="samples = 4
+ value = 2.0" color=skyblue style=filled]
+	"20b9d2b3-383e-11eb-8299-5800e3ba9968" -> "20b9d2b7-383e-11eb-b7ed-5800e3ba9968" [label=N]
+	"20b9d2b8-383e-11eb-9320-5800e3ba9968" [label="pixel_5_3 <= 14.0 ? " color=pink style=filled]
+	"20b9d2aa-383e-11eb-b2d8-5800e3ba9968" -> "20b9d2b8-383e-11eb-9320-5800e3ba9968" [label=N]
+	"20b9d2b9-383e-11eb-bc3d-5800e3ba9968" [label="pixel_3_5 <= 11.0 ? " color=tomato style=filled]
+	"20b9d2b8-383e-11eb-9320-5800e3ba9968" -> "20b9d2b9-383e-11eb-bc3d-5800e3ba9968" [label=Y]
+	"20b9d2ba-383e-11eb-81e6-5800e3ba9968" [label="samples = 15
+ value = 8.0" color=red style=filled]
+	"20b9d2b9-383e-11eb-bc3d-5800e3ba9968" -> "20b9d2ba-383e-11eb-81e6-5800e3ba9968" [label=Y]
+	"20b9d2bb-383e-11eb-bf8b-5800e3ba9968" [label="samples = 1
+ value = 3.0" color=red style=filled]
+	"20b9d2b9-383e-11eb-bc3d-5800e3ba9968" -> "20b9d2bb-383e-11eb-bf8b-5800e3ba9968" [label=N]
+	"20b9d2bc-383e-11eb-beeb-5800e3ba9968" [label="pixel_2_3 <= 15.0 ? " color=tomato style=filled]
+	"20b9d2b8-383e-11eb-9320-5800e3ba9968" -> "20b9d2bc-383e-11eb-beeb-5800e3ba9968" [label=N]
+	"20ba6dd2-383e-11eb-bce9-5800e3ba9968" [label="pixel_0_2 <= 5.0 ? " color=yellow style=filled]
+	"20b9d2bc-383e-11eb-beeb-5800e3ba9968" -> "20ba6dd2-383e-11eb-bce9-5800e3ba9968" [label=Y]
+	"20ba6dd3-383e-11eb-937c-5800e3ba9968" [label="samples = 2
+ value = 8.0" color=yellow style=filled]
+	"20ba6dd2-383e-11eb-bce9-5800e3ba9968" -> "20ba6dd3-383e-11eb-937c-5800e3ba9968" [label=Y]
+	"20ba6dd4-383e-11eb-88e8-5800e3ba9968" [label="samples = 1
+ value = 7.0" color=yellow style=filled]
+	"20ba6dd2-383e-11eb-bce9-5800e3ba9968" -> "20ba6dd4-383e-11eb-88e8-5800e3ba9968" [label=N]
+	"20ba6dd5-383e-11eb-9591-5800e3ba9968" [label="samples = 10
+ value = 1.0" color=yellow style=filled]
+	"20b9d2bc-383e-11eb-beeb-5800e3ba9968" -> "20ba6dd5-383e-11eb-9591-5800e3ba9968" [label=N]
+	"20ba6dd6-383e-11eb-bc53-5800e3ba9968" [label="pixel_4_1 <= 2.0 ? " color=purple style=filled]
+	"20b31d8c-383e-11eb-81cb-5800e3ba9968" -> "20ba6dd6-383e-11eb-bc53-5800e3ba9968" [label=N]
+	"20ba6dd7-383e-11eb-aaa1-5800e3ba9968" [label="pixel_5_3 <= 0.0 ? " color=yellow style=filled]
+	"20ba6dd6-383e-11eb-bc53-5800e3ba9968" -> "20ba6dd7-383e-11eb-aaa1-5800e3ba9968" [label=Y]
+	"20ba6dd8-383e-11eb-96bf-5800e3ba9968" [label="pixel_2_3 <= 14.0 ? " color=pink style=filled]
+	"20ba6dd7-383e-11eb-aaa1-5800e3ba9968" -> "20ba6dd8-383e-11eb-96bf-5800e3ba9968" [label=Y]
+	"20ba6dd9-383e-11eb-9251-5800e3ba9968" [label="pixel_2_5 <= 5.0 ? " color=purple style=filled]
+	"20ba6dd8-383e-11eb-96bf-5800e3ba9968" -> "20ba6dd9-383e-11eb-9251-5800e3ba9968" [label=Y]
+	"20ba6dda-383e-11eb-946f-5800e3ba9968" [label="samples = 3
+ value = 5.0" color=skyblue style=filled]
+	"20ba6dd9-383e-11eb-9251-5800e3ba9968" -> "20ba6dda-383e-11eb-946f-5800e3ba9968" [label=Y]
+	"20ba6ddb-383e-11eb-a580-5800e3ba9968" [label="pixel_3_3 <= 0.0 ? " color=skyblue style=filled]
+	"20ba6dd9-383e-11eb-9251-5800e3ba9968" -> "20ba6ddb-383e-11eb-a580-5800e3ba9968" [label=N]
+	"20ba6ddc-383e-11eb-a1ef-5800e3ba9968" [label="samples = 1
+ value = 0.0" color=yellow style=filled]
+	"20ba6ddb-383e-11eb-a580-5800e3ba9968" -> "20ba6ddc-383e-11eb-a1ef-5800e3ba9968" [label=Y]
+	"20ba6ddd-383e-11eb-a7d1-5800e3ba9968" [label="samples = 85
+ value = 9.0" color=yellow style=filled]
+	"20ba6ddb-383e-11eb-a580-5800e3ba9968" -> "20ba6ddd-383e-11eb-a7d1-5800e3ba9968" [label=N]
+	"20ba6dde-383e-11eb-9afd-5800e3ba9968" [label="pixel_7_5 <= 12.0 ? " color=purple style=filled]
+	"20ba6dd8-383e-11eb-96bf-5800e3ba9968" -> "20ba6dde-383e-11eb-9afd-5800e3ba9968" [label=N]
+	"20ba6ddf-383e-11eb-9361-5800e3ba9968" [label="samples = 8
+ value = 9.0" color=purple style=filled]
+	"20ba6dde-383e-11eb-9afd-5800e3ba9968" -> "20ba6ddf-383e-11eb-9361-5800e3ba9968" [label=Y]
+	"20ba6de0-383e-11eb-a692-5800e3ba9968" [label="samples = 6
+ value = 1.0" color=purple style=filled]
+	"20ba6dde-383e-11eb-9afd-5800e3ba9968" -> "20ba6de0-383e-11eb-a692-5800e3ba9968" [label=N]
+	"20ba6de1-383e-11eb-8a8d-5800e3ba9968" [label="pixel_7_5 <= 0.0 ? " color=pink style=filled]
+	"20ba6dd7-383e-11eb-aaa1-5800e3ba9968" -> "20ba6de1-383e-11eb-8a8d-5800e3ba9968" [label=N]
+	"20ba6de2-383e-11eb-925a-5800e3ba9968" [label="pixel_3_1 <= 3.0 ? " color=yellow style=filled]
+	"20ba6de1-383e-11eb-8a8d-5800e3ba9968" -> "20ba6de2-383e-11eb-925a-5800e3ba9968" [label=Y]
+	"20ba6de3-383e-11eb-974e-5800e3ba9968" [label="pixel_2_3 <= 10.0 ? " color=tomato style=filled]
+	"20ba6de2-383e-11eb-925a-5800e3ba9968" -> "20ba6de3-383e-11eb-974e-5800e3ba9968" [label=Y]
+	"20ba6de4-383e-11eb-a945-5800e3ba9968" [label="samples = 69
+ value = 7.0" color=green style=filled]
+	"20ba6de3-383e-11eb-974e-5800e3ba9968" -> "20ba6de4-383e-11eb-a945-5800e3ba9968" [label=Y]
+	"20ba6de5-383e-11eb-a27e-5800e3ba9968" [label="pixel_0_2 <= 1.0 ? " color=green style=filled]
+	"20ba6de3-383e-11eb-974e-5800e3ba9968" -> "20ba6de5-383e-11eb-a27e-5800e3ba9968" [label=N]
+	"20ba6de6-383e-11eb-bed7-5800e3ba9968" [label="samples = 1
+ value = 8.0" color=skyblue style=filled]
+	"20ba6de5-383e-11eb-a27e-5800e3ba9968" -> "20ba6de6-383e-11eb-bed7-5800e3ba9968" [label=Y]
+	"20ba6de7-383e-11eb-91f5-5800e3ba9968" [label="samples = 1
+ value = 7.0" color=skyblue style=filled]
+	"20ba6de5-383e-11eb-a27e-5800e3ba9968" -> "20ba6de7-383e-11eb-91f5-5800e3ba9968" [label=N]
+	"20ba6de8-383e-11eb-a7ba-5800e3ba9968" [label="pixel_3_3 <= 10.0 ? " color=tomato style=filled]
+	"20ba6de2-383e-11eb-925a-5800e3ba9968" -> "20ba6de8-383e-11eb-a7ba-5800e3ba9968" [label=N]
+	"20bb09e2-383e-11eb-8876-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=purple style=filled]
+	"20ba6de8-383e-11eb-a7ba-5800e3ba9968" -> "20bb09e2-383e-11eb-8876-5800e3ba9968" [label=Y]
+	"20bb09e3-383e-11eb-be32-5800e3ba9968" [label="samples = 2
+ value = 4.0" color=skyblue style=filled]
+	"20bb09e2-383e-11eb-8876-5800e3ba9968" -> "20bb09e3-383e-11eb-be32-5800e3ba9968" [label=Y]
+	"20bb09e4-383e-11eb-822c-5800e3ba9968" [label="samples = 2
+ value = 7.0" color=skyblue style=filled]
+	"20bb09e2-383e-11eb-8876-5800e3ba9968" -> "20bb09e4-383e-11eb-822c-5800e3ba9968" [label=N]
+	"20bb09e5-383e-11eb-b42a-5800e3ba9968" [label="samples = 3
+ value = 9.0" color=purple style=filled]
+	"20ba6de8-383e-11eb-a7ba-5800e3ba9968" -> "20bb09e5-383e-11eb-b42a-5800e3ba9968" [label=N]
+	"20bb09e6-383e-11eb-8d55-5800e3ba9968" [label="pixel_4_6 <= 4.0 ? " color=yellow style=filled]
+	"20ba6de1-383e-11eb-8a8d-5800e3ba9968" -> "20bb09e6-383e-11eb-8d55-5800e3ba9968" [label=N]
+	"20bb09e7-383e-11eb-b464-5800e3ba9968" [label="pixel_2_2 <= 3.0 ? " color=red style=filled]
+	"20bb09e6-383e-11eb-8d55-5800e3ba9968" -> "20bb09e7-383e-11eb-b464-5800e3ba9968" [label=Y]
+	"20bb09e8-383e-11eb-a63d-5800e3ba9968" [label="pixel_0_4 <= 9.0 ? " color=red style=filled]
+	"20bb09e7-383e-11eb-b464-5800e3ba9968" -> "20bb09e8-383e-11eb-a63d-5800e3ba9968" [label=Y]
+	"20bb09e9-383e-11eb-a1bc-5800e3ba9968" [label="samples = 1
+ value = 7.0" color=tomato style=filled]
+	"20bb09e8-383e-11eb-a63d-5800e3ba9968" -> "20bb09e9-383e-11eb-a1bc-5800e3ba9968" [label=Y]
+	"20bb09ea-383e-11eb-9179-5800e3ba9968" [label="samples = 5
+ value = 2.0" color=tomato style=filled]
+	"20bb09e8-383e-11eb-a63d-5800e3ba9968" -> "20bb09ea-383e-11eb-9179-5800e3ba9968" [label=N]
+	"20bb09eb-383e-11eb-92d6-5800e3ba9968" [label="pixel_5_3 <= 2.0 ? " color=red style=filled]
+	"20bb09e7-383e-11eb-b464-5800e3ba9968" -> "20bb09eb-383e-11eb-92d6-5800e3ba9968" [label=N]
+	"20bb09ec-383e-11eb-8f78-5800e3ba9968" [label="samples = 2
+ value = 9.0" color=yellow style=filled]
+	"20bb09eb-383e-11eb-92d6-5800e3ba9968" -> "20bb09ec-383e-11eb-8f78-5800e3ba9968" [label=Y]
+	"20bb09ed-383e-11eb-a703-5800e3ba9968" [label="pixel_1_2 <= 7.0 ? " color=yellow style=filled]
+	"20bb09eb-383e-11eb-92d6-5800e3ba9968" -> "20bb09ed-383e-11eb-a703-5800e3ba9968" [label=N]
+	"20bb09ee-383e-11eb-a91f-5800e3ba9968" [label="samples = 1
+ value = 1.0" color=green style=filled]
+	"20bb09ed-383e-11eb-a703-5800e3ba9968" -> "20bb09ee-383e-11eb-a91f-5800e3ba9968" [label=Y]
+	"20bb09ef-383e-11eb-8744-5800e3ba9968" [label="samples = 19
+ value = 8.0" color=green style=filled]
+	"20bb09ed-383e-11eb-a703-5800e3ba9968" -> "20bb09ef-383e-11eb-8744-5800e3ba9968" [label=N]
+	"20bb09f0-383e-11eb-b30e-5800e3ba9968" [label="pixel_4_2 <= 13.0 ? " color=red style=filled]
+	"20bb09e6-383e-11eb-8d55-5800e3ba9968" -> "20bb09f0-383e-11eb-b30e-5800e3ba9968" [label=N]
+	"20bb09f1-383e-11eb-ac05-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=yellow style=filled]
+	"20bb09f0-383e-11eb-b30e-5800e3ba9968" -> "20bb09f1-383e-11eb-ac05-5800e3ba9968" [label=Y]
+	"20bb09f2-383e-11eb-8fd5-5800e3ba9968" [label="pixel_0_3 <= 0.0 ? " color=green style=filled]
+	"20bb09f1-383e-11eb-ac05-5800e3ba9968" -> "20bb09f2-383e-11eb-8fd5-5800e3ba9968" [label=Y]
+	"20bb09f3-383e-11eb-905e-5800e3ba9968" [label="samples = 1
+ value = 1.0" color=pink style=filled]
+	"20bb09f2-383e-11eb-8fd5-5800e3ba9968" -> "20bb09f3-383e-11eb-905e-5800e3ba9968" [label=Y]
+	"20bb09f4-383e-11eb-b0ec-5800e3ba9968" [label="samples = 2
+ value = 6.0" color=pink style=filled]
+	"20bb09f2-383e-11eb-8fd5-5800e3ba9968" -> "20bb09f4-383e-11eb-b0ec-5800e3ba9968" [label=N]
+	"20bb09f5-383e-11eb-abb1-5800e3ba9968" [label="samples = 5
+ value = 9.0" color=green style=filled]
+	"20bb09f1-383e-11eb-ac05-5800e3ba9968" -> "20bb09f5-383e-11eb-abb1-5800e3ba9968" [label=N]
+	"20bb09f6-383e-11eb-ae5a-5800e3ba9968" [label="pixel_0_3 <= 0.0 ? " color=yellow style=filled]
+	"20bb09f0-383e-11eb-b30e-5800e3ba9968" -> "20bb09f6-383e-11eb-ae5a-5800e3ba9968" [label=N]
+	"20bb09f7-383e-11eb-9fec-5800e3ba9968" [label="samples = 1
+ value = 4.0" color=purple style=filled]
+	"20bb09f6-383e-11eb-ae5a-5800e3ba9968" -> "20bb09f7-383e-11eb-9fec-5800e3ba9968" [label=Y]
+	"20bba5f0-383e-11eb-b139-5800e3ba9968" [label="samples = 6
+ value = 0.0" color=purple style=filled]
+	"20bb09f6-383e-11eb-ae5a-5800e3ba9968" -> "20bba5f0-383e-11eb-b139-5800e3ba9968" [label=N]
+	"20bc4278-383e-11eb-822b-5800e3ba9968" [label="pixel_4_4 <= 0.0 ? " color=yellow style=filled]
+	"20ba6dd6-383e-11eb-bc53-5800e3ba9968" -> "20bc4278-383e-11eb-822b-5800e3ba9968" [label=N]
+	"20bc4279-383e-11eb-9ea2-5800e3ba9968" [label="pixel_1_5 <= 1.0 ? " color=purple style=filled]
+	"20bc4278-383e-11eb-822b-5800e3ba9968" -> "20bc4279-383e-11eb-9ea2-5800e3ba9968" [label=Y]
+	"20bc427a-383e-11eb-a8bf-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=orange style=filled]
+	"20bc4279-383e-11eb-9ea2-5800e3ba9968" -> "20bc427a-383e-11eb-a8bf-5800e3ba9968" [label=Y]
+	"20bc427b-383e-11eb-9802-5800e3ba9968" [label="samples = 5
+ value = 4.0" color=red style=filled]
+	"20bc427a-383e-11eb-a8bf-5800e3ba9968" -> "20bc427b-383e-11eb-9802-5800e3ba9968" [label=Y]
+	"20bc427c-383e-11eb-b6ab-5800e3ba9968" [label="samples = 1
+ value = 6.0" color=red style=filled]
+	"20bc427a-383e-11eb-a8bf-5800e3ba9968" -> "20bc427c-383e-11eb-b6ab-5800e3ba9968" [label=N]
+	"20bc427d-383e-11eb-b83e-5800e3ba9968" [label="pixel_0_6 <= 1.0 ? " color=orange style=filled]
+	"20bc4279-383e-11eb-9ea2-5800e3ba9968" -> "20bc427d-383e-11eb-b83e-5800e3ba9968" [label=N]
+	"20bc427e-383e-11eb-8bf7-5800e3ba9968" [label="samples = 134
+ value = 0.0" color=tomato style=filled]
+	"20bc427d-383e-11eb-b83e-5800e3ba9968" -> "20bc427e-383e-11eb-8bf7-5800e3ba9968" [label=Y]
+	"20bc427f-383e-11eb-b20e-5800e3ba9968" [label="samples = 4
+ value = 5.0" color=tomato style=filled]
+	"20bc427d-383e-11eb-b83e-5800e3ba9968" -> "20bc427f-383e-11eb-b20e-5800e3ba9968" [label=N]
+	"20bc4280-383e-11eb-8206-5800e3ba9968" [label="pixel_3_2 <= 10.0 ? " color=purple style=filled]
+	"20bc4278-383e-11eb-822b-5800e3ba9968" -> "20bc4280-383e-11eb-8206-5800e3ba9968" [label=N]
+	"20bc4281-383e-11eb-8730-5800e3ba9968" [label="pixel_0_3 <= 1.0 ? " color=green style=filled]
+	"20bc4280-383e-11eb-8206-5800e3ba9968" -> "20bc4281-383e-11eb-8730-5800e3ba9968" [label=Y]
+	"20bc4282-383e-11eb-a288-5800e3ba9968" [label="pixel_0_3 <= 0.0 ? " color=skyblue style=filled]
+	"20bc4281-383e-11eb-8730-5800e3ba9968" -> "20bc4282-383e-11eb-a288-5800e3ba9968" [label=Y]
+	"20bc4283-383e-11eb-9a97-5800e3ba9968" [label="samples = 1
+ value = 1.0" color=pink style=filled]
+	"20bc4282-383e-11eb-a288-5800e3ba9968" -> "20bc4283-383e-11eb-9a97-5800e3ba9968" [label=Y]
+	"20bc4284-383e-11eb-a465-5800e3ba9968" [label="samples = 1
+ value = 4.0" color=pink style=filled]
+	"20bc4282-383e-11eb-a288-5800e3ba9968" -> "20bc4284-383e-11eb-a465-5800e3ba9968" [label=N]
+	"20bc4285-383e-11eb-9b9f-5800e3ba9968" [label="samples = 17
+ value = 7.0" color=skyblue style=filled]
+	"20bc4281-383e-11eb-8730-5800e3ba9968" -> "20bc4285-383e-11eb-9b9f-5800e3ba9968" [label=N]
+	"20bc4286-383e-11eb-a09b-5800e3ba9968" [label="pixel_5_4 <= 7.0 ? " color=green style=filled]
+	"20bc4280-383e-11eb-8206-5800e3ba9968" -> "20bc4286-383e-11eb-a09b-5800e3ba9968" [label=N]
+	"20bc4287-383e-11eb-aff2-5800e3ba9968" [label="pixel_2_6 <= 0.0 ? " color=pink style=filled]
+	"20bc4286-383e-11eb-a09b-5800e3ba9968" -> "20bc4287-383e-11eb-aff2-5800e3ba9968" [label=Y]
+	"20bcde06-383e-11eb-b3df-5800e3ba9968" [label="pixel_0_4 <= 14.0 ? " color=yellow style=filled]
+	"20bc4287-383e-11eb-aff2-5800e3ba9968" -> "20bcde06-383e-11eb-b3df-5800e3ba9968" [label=Y]
+	"20bcde07-383e-11eb-9911-5800e3ba9968" [label="samples = 2
+ value = 6.0" color=orange style=filled]
+	"20bcde06-383e-11eb-b3df-5800e3ba9968" -> "20bcde07-383e-11eb-9911-5800e3ba9968" [label=Y]
+	"20bcde08-383e-11eb-afd7-5800e3ba9968" [label="samples = 5
+ value = 5.0" color=orange style=filled]
+	"20bcde06-383e-11eb-b3df-5800e3ba9968" -> "20bcde08-383e-11eb-afd7-5800e3ba9968" [label=N]
+	"20bcde09-383e-11eb-92d2-5800e3ba9968" [label="pixel_0_5 <= 3.0 ? " color=yellow style=filled]
+	"20bc4287-383e-11eb-aff2-5800e3ba9968" -> "20bcde09-383e-11eb-92d2-5800e3ba9968" [label=N]
+	"20bcde0a-383e-11eb-ba20-5800e3ba9968" [label="samples = 3
+ value = 4.0" color=tomato style=filled]
+	"20bcde09-383e-11eb-92d2-5800e3ba9968" -> "20bcde0a-383e-11eb-ba20-5800e3ba9968" [label=Y]
+	"20bcde0b-383e-11eb-a1d8-5800e3ba9968" [label="pixel_0_2 <= 0.0 ? " color=tomato style=filled]
+	"20bcde09-383e-11eb-92d2-5800e3ba9968" -> "20bcde0b-383e-11eb-a1d8-5800e3ba9968" [label=N]
+	"20bcde0c-383e-11eb-898a-5800e3ba9968" [label="pixel_0_3 <= 0.0 ? " color=pink style=filled]
+	"20bcde0b-383e-11eb-a1d8-5800e3ba9968" -> "20bcde0c-383e-11eb-898a-5800e3ba9968" [label=Y]
+	"20bcde0d-383e-11eb-bc5a-5800e3ba9968" [label="samples = 1
+ value = 9.0" color=yellow style=filled]
+	"20bcde0c-383e-11eb-898a-5800e3ba9968" -> "20bcde0d-383e-11eb-bc5a-5800e3ba9968" [label=Y]
+	"20bcde0e-383e-11eb-86c9-5800e3ba9968" [label="samples = 1
+ value = 8.0" color=yellow style=filled]
+	"20bcde0c-383e-11eb-898a-5800e3ba9968" -> "20bcde0e-383e-11eb-86c9-5800e3ba9968" [label=N]
+	"20bcde0f-383e-11eb-942e-5800e3ba9968" [label="samples = 1
+ value = 7.0" color=pink style=filled]
+	"20bcde0b-383e-11eb-a1d8-5800e3ba9968" -> "20bcde0f-383e-11eb-942e-5800e3ba9968" [label=N]
+	"20bcde10-383e-11eb-889a-5800e3ba9968" [label="pixel_1_5 <= 7.0 ? " color=pink style=filled]
+	"20bc4286-383e-11eb-a09b-5800e3ba9968" -> "20bcde10-383e-11eb-889a-5800e3ba9968" [label=N]
+	"20bcde11-383e-11eb-a046-5800e3ba9968" [label="samples = 83
+ value = 4.0" color=orange style=filled]
+	"20bcde10-383e-11eb-889a-5800e3ba9968" -> "20bcde11-383e-11eb-a046-5800e3ba9968" [label=Y]
+	"20bcde12-383e-11eb-9172-5800e3ba9968" [label="pixel_2_3 <= 3.0 ? " color=orange style=filled]
+	"20bcde10-383e-11eb-889a-5800e3ba9968" -> "20bcde12-383e-11eb-9172-5800e3ba9968" [label=N]
+	"20bcde13-383e-11eb-8281-5800e3ba9968" [label="samples = 3
+ value = 7.0" color=red style=filled]
+	"20bcde12-383e-11eb-9172-5800e3ba9968" -> "20bcde13-383e-11eb-8281-5800e3ba9968" [label=Y]
+	"20bcde14-383e-11eb-9b98-5800e3ba9968" [label="pixel_2_3 <= 13.0 ? " color=red style=filled]
+	"20bcde12-383e-11eb-9172-5800e3ba9968" -> "20bcde14-383e-11eb-9b98-5800e3ba9968" [label=N]
+	"20bcde15-383e-11eb-9c33-5800e3ba9968" [label="samples = 6
+ value = 4.0" color=purple style=filled]
+	"20bcde14-383e-11eb-9b98-5800e3ba9968" -> "20bcde15-383e-11eb-9c33-5800e3ba9968" [label=Y]
+	"20bcde16-383e-11eb-b3ed-5800e3ba9968" [label="pixel_0_3 <= 0.0 ? " color=purple style=filled]
+	"20bcde14-383e-11eb-9b98-5800e3ba9968" -> "20bcde16-383e-11eb-b3ed-5800e3ba9968" [label=N]
+	"20bcde17-383e-11eb-b17f-5800e3ba9968" [label="samples = 1
+ value = 1.0" color=red style=filled]
+	"20bcde16-383e-11eb-b3ed-5800e3ba9968" -> "20bcde17-383e-11eb-b17f-5800e3ba9968" [label=Y]
+	"20bcde18-383e-11eb-9604-5800e3ba9968" [label="samples = 2
+ value = 0.0" color=red style=filled]
+	"20bcde16-383e-11eb-b3ed-5800e3ba9968" -> "20bcde18-383e-11eb-9604-5800e3ba9968" [label=N]
+}

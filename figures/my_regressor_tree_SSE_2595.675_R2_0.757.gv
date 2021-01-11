@@ -1,0 +1,225 @@
+// Binary Tree
+digraph {
+	"88b3657a-3842-11eb-a188-5800e3ba9968" [label="RM<=6.968?" color=red style=filled]
+	"88b3657b-3842-11eb-a6a3-5800e3ba9968" [label="LSTAT <= 14.37 ? " color=green style=filled]
+	"88b3657a-3842-11eb-a188-5800e3ba9968" -> "88b3657b-3842-11eb-a6a3-5800e3ba9968" [label=Y]
+	"88b3657c-3842-11eb-a229-5800e3ba9968" [label="LSTAT <= 4.85 ? " color=yellow style=filled]
+	"88b3657b-3842-11eb-a6a3-5800e3ba9968" -> "88b3657c-3842-11eb-a229-5800e3ba9968" [label=Y]
+	"88b3657d-3842-11eb-95e6-5800e3ba9968" [label="TAX <= 330.0 ? " color=orange style=filled]
+	"88b3657c-3842-11eb-a229-5800e3ba9968" -> "88b3657d-3842-11eb-95e6-5800e3ba9968" [label=Y]
+	"88b3657e-3842-11eb-9734-5800e3ba9968" [label="PTRATIO <= 17.6 ? " color=green style=filled]
+	"88b3657d-3842-11eb-95e6-5800e3ba9968" -> "88b3657e-3842-11eb-9734-5800e3ba9968" [label=Y]
+	"88b3657f-3842-11eb-bffc-5800e3ba9968" [label="samples = 6
+ value = 32.68333333333333" color=pink style=filled]
+	"88b3657e-3842-11eb-9734-5800e3ba9968" -> "88b3657f-3842-11eb-bffc-5800e3ba9968" [label=Y]
+	"88b36580-3842-11eb-9937-5800e3ba9968" [label="samples = 7
+ value = 27.285714285714285" color=pink style=filled]
+	"88b3657e-3842-11eb-9734-5800e3ba9968" -> "88b36580-3842-11eb-9937-5800e3ba9968" [label=N]
+	"88b36581-3842-11eb-af31-5800e3ba9968" [label="samples = 5
+ value = 38.3" color=green style=filled]
+	"88b3657d-3842-11eb-95e6-5800e3ba9968" -> "88b36581-3842-11eb-af31-5800e3ba9968" [label=N]
+	"88b36582-3842-11eb-b788-5800e3ba9968" [label="RM <= 6.144 ? " color=orange style=filled]
+	"88b3657c-3842-11eb-a229-5800e3ba9968" -> "88b36582-3842-11eb-b788-5800e3ba9968" [label=N]
+	"88b36583-3842-11eb-ab48-5800e3ba9968" [label="NOX <= 0.597 ? " color=orange style=filled]
+	"88b36582-3842-11eb-b788-5800e3ba9968" -> "88b36583-3842-11eb-ab48-5800e3ba9968" [label=Y]
+	"88b36584-3842-11eb-9403-5800e3ba9968" [label="AGE <= 76.7 ? " color=yellow style=filled]
+	"88b36583-3842-11eb-ab48-5800e3ba9968" -> "88b36584-3842-11eb-9403-5800e3ba9968" [label=Y]
+	"88b36585-3842-11eb-af10-5800e3ba9968" [label="RM <= 5.682 ? " color=purple style=filled]
+	"88b36584-3842-11eb-9403-5800e3ba9968" -> "88b36585-3842-11eb-af10-5800e3ba9968" [label=Y]
+	"88b36586-3842-11eb-b78e-5800e3ba9968" [label="samples = 5
+ value = 18.54" color=tomato style=filled]
+	"88b36585-3842-11eb-af10-5800e3ba9968" -> "88b36586-3842-11eb-b78e-5800e3ba9968" [label=Y]
+	"88b36587-3842-11eb-9015-5800e3ba9968" [label="INDUS <= 5.19 ? " color=tomato style=filled]
+	"88b36585-3842-11eb-af10-5800e3ba9968" -> "88b36587-3842-11eb-9015-5800e3ba9968" [label=N]
+	"88b36588-3842-11eb-bb80-5800e3ba9968" [label="RM <= 6.014 ? " color=orange style=filled]
+	"88b36587-3842-11eb-9015-5800e3ba9968" -> "88b36588-3842-11eb-bb80-5800e3ba9968" [label=Y]
+	"88b36589-3842-11eb-8be7-5800e3ba9968" [label="samples = 11
+ value = 19.027272727272727" color=green style=filled]
+	"88b36588-3842-11eb-bb80-5800e3ba9968" -> "88b36589-3842-11eb-8be7-5800e3ba9968" [label=Y]
+	"88b3658a-3842-11eb-abcf-5800e3ba9968" [label="samples = 7
+ value = 21.17142857142857" color=green style=filled]
+	"88b36588-3842-11eb-bb80-5800e3ba9968" -> "88b3658a-3842-11eb-abcf-5800e3ba9968" [label=N]
+	"88b3658b-3842-11eb-9195-5800e3ba9968" [label="AGE <= 43.7 ? " color=orange style=filled]
+	"88b36587-3842-11eb-9015-5800e3ba9968" -> "88b3658b-3842-11eb-9195-5800e3ba9968" [label=N]
+	"88b3658c-3842-11eb-b2c4-5800e3ba9968" [label="RM <= 5.885 ? " color=purple style=filled]
+	"88b3658b-3842-11eb-9195-5800e3ba9968" -> "88b3658c-3842-11eb-b2c4-5800e3ba9968" [label=Y]
+	"88b3658d-3842-11eb-b6da-5800e3ba9968" [label="samples = 8
+ value = 20.9625" color=yellow style=filled]
+	"88b3658c-3842-11eb-b2c4-5800e3ba9968" -> "88b3658d-3842-11eb-b6da-5800e3ba9968" [label=Y]
+	"88b3658e-3842-11eb-aad1-5800e3ba9968" [label="samples = 12
+ value = 22.724999999999998" color=yellow style=filled]
+	"88b3658c-3842-11eb-b2c4-5800e3ba9968" -> "88b3658e-3842-11eb-aad1-5800e3ba9968" [label=N]
+	"88b3658f-3842-11eb-bd28-5800e3ba9968" [label="samples = 18
+ value = 20.755555555555553" color=purple style=filled]
+	"88b3658b-3842-11eb-9195-5800e3ba9968" -> "88b3658f-3842-11eb-bd28-5800e3ba9968" [label=N]
+	"88b36590-3842-11eb-8afc-5800e3ba9968" [label="LSTAT <= 13.04 ? " color=purple style=filled]
+	"88b36584-3842-11eb-9403-5800e3ba9968" -> "88b36590-3842-11eb-8afc-5800e3ba9968" [label=N]
+	"88b36591-3842-11eb-9662-5800e3ba9968" [label="samples = 7
+ value = 16.342857142857145" color=purple style=filled]
+	"88b36590-3842-11eb-8afc-5800e3ba9968" -> "88b36591-3842-11eb-9662-5800e3ba9968" [label=Y]
+	"88b36592-3842-11eb-9ea7-5800e3ba9968" [label="samples = 5
+ value = 18.979999999999997" color=purple style=filled]
+	"88b36590-3842-11eb-8afc-5800e3ba9968" -> "88b36592-3842-11eb-9ea7-5800e3ba9968" [label=N]
+	"88b36593-3842-11eb-b9ee-5800e3ba9968" [label="CRIM <= 3.69695 ? " color=yellow style=filled]
+	"88b36583-3842-11eb-ab48-5800e3ba9968" -> "88b36593-3842-11eb-b9ee-5800e3ba9968" [label=N]
+	"88b36594-3842-11eb-8cb6-5800e3ba9968" [label="NOX <= 0.647 ? " color=green style=filled]
+	"88b36593-3842-11eb-b9ee-5800e3ba9968" -> "88b36594-3842-11eb-8cb6-5800e3ba9968" [label=Y]
+	"88b36595-3842-11eb-ace7-5800e3ba9968" [label="samples = 6
+ value = 22.516666666666666" color=red style=filled]
+	"88b36594-3842-11eb-8cb6-5800e3ba9968" -> "88b36595-3842-11eb-ace7-5800e3ba9968" [label=Y]
+	"88b36596-3842-11eb-abf2-5800e3ba9968" [label="samples = 5
+ value = 19.880000000000003" color=red style=filled]
+	"88b36594-3842-11eb-8cb6-5800e3ba9968" -> "88b36596-3842-11eb-abf2-5800e3ba9968" [label=N]
+	"88b36597-3842-11eb-b3b1-5800e3ba9968" [label="samples = 5
+ value = 24.4" color=green style=filled]
+	"88b36593-3842-11eb-b9ee-5800e3ba9968" -> "88b36597-3842-11eb-b3b1-5800e3ba9968" [label=N]
+	"88b36598-3842-11eb-a7bf-5800e3ba9968" [label="LSTAT <= 9.71 ? " color=orange style=filled]
+	"88b36582-3842-11eb-b788-5800e3ba9968" -> "88b36598-3842-11eb-a7bf-5800e3ba9968" [label=N]
+	"88b36599-3842-11eb-ac42-5800e3ba9968" [label="B <= 366.15 ? " color=orange style=filled]
+	"88b36598-3842-11eb-a7bf-5800e3ba9968" -> "88b36599-3842-11eb-ac42-5800e3ba9968" [label=Y]
+	"88b3659a-3842-11eb-a802-5800e3ba9968" [label="samples = 5
+ value = 31.54" color=green style=filled]
+	"88b36599-3842-11eb-ac42-5800e3ba9968" -> "88b3659a-3842-11eb-a802-5800e3ba9968" [label=Y]
+	"88b3659b-3842-11eb-a41a-5800e3ba9968" [label="RM <= 6.635 ? " color=green style=filled]
+	"88b36599-3842-11eb-ac42-5800e3ba9968" -> "88b3659b-3842-11eb-a41a-5800e3ba9968" [label=N]
+	"88b3659c-3842-11eb-a6a0-5800e3ba9968" [label="TAX <= 254.0 ? " color=pink style=filled]
+	"88b3659b-3842-11eb-a41a-5800e3ba9968" -> "88b3659c-3842-11eb-a6a0-5800e3ba9968" [label=Y]
+	"88b3659d-3842-11eb-ac73-5800e3ba9968" [label="samples = 8
+ value = 26.025" color=pink style=filled]
+	"88b3659c-3842-11eb-a6a0-5800e3ba9968" -> "88b3659d-3842-11eb-ac73-5800e3ba9968" [label=Y]
+	"88b3659e-3842-11eb-bb86-5800e3ba9968" [label="PTRATIO <= 15.9 ? " color=pink style=filled]
+	"88b3659c-3842-11eb-a6a0-5800e3ba9968" -> "88b3659e-3842-11eb-bb86-5800e3ba9968" [label=N]
+	"88b3659f-3842-11eb-a326-5800e3ba9968" [label="samples = 5
+ value = 21.82" color=pink style=filled]
+	"88b3659e-3842-11eb-bb86-5800e3ba9968" -> "88b3659f-3842-11eb-a326-5800e3ba9968" [label=Y]
+	"88b365a0-3842-11eb-905a-5800e3ba9968" [label="samples = 35
+ value = 23.810855263157897" color=pink style=filled]
+	"88b3659e-3842-11eb-bb86-5800e3ba9968" -> "88b365a0-3842-11eb-905a-5800e3ba9968" [label=N]
+	"88b365a1-3842-11eb-ba4e-5800e3ba9968" [label="PTRATIO <= 16.6 ? " color=pink style=filled]
+	"88b3659b-3842-11eb-a41a-5800e3ba9968" -> "88b365a1-3842-11eb-ba4e-5800e3ba9968" [label=N]
+	"88b365a2-3842-11eb-a53b-5800e3ba9968" [label="samples = 5
+ value = 29.1" color=skyblue style=filled]
+	"88b365a1-3842-11eb-ba4e-5800e3ba9968" -> "88b365a2-3842-11eb-a53b-5800e3ba9968" [label=Y]
+	"88b365a3-3842-11eb-8e42-5800e3ba9968" [label="samples = 7
+ value = 26.328571428571426" color=skyblue style=filled]
+	"88b365a1-3842-11eb-ba4e-5800e3ba9968" -> "88b365a3-3842-11eb-8e42-5800e3ba9968" [label=N]
+	"88b365a4-3842-11eb-893d-5800e3ba9968" [label="PTRATIO <= 17.8 ? " color=orange style=filled]
+	"88b36598-3842-11eb-a7bf-5800e3ba9968" -> "88b365a4-3842-11eb-893d-5800e3ba9968" [label=N]
+	"88b365a5-3842-11eb-9cad-5800e3ba9968" [label="samples = 6
+ value = 23.916666666666668" color=skyblue style=filled]
+	"88b365a4-3842-11eb-893d-5800e3ba9968" -> "88b365a5-3842-11eb-9cad-5800e3ba9968" [label=Y]
+	"88b365a6-3842-11eb-a727-5800e3ba9968" [label="AGE <= 69.6 ? " color=skyblue style=filled]
+	"88b365a4-3842-11eb-893d-5800e3ba9968" -> "88b365a6-3842-11eb-a727-5800e3ba9968" [label=N]
+	"88b365a7-3842-11eb-8978-5800e3ba9968" [label="samples = 9
+ value = 21.944444444444443" color=green style=filled]
+	"88b365a6-3842-11eb-a727-5800e3ba9968" -> "88b365a7-3842-11eb-8978-5800e3ba9968" [label=Y]
+	"88b365a8-3842-11eb-9aea-5800e3ba9968" [label="samples = 14
+ value = 20.22142857142857" color=green style=filled]
+	"88b365a6-3842-11eb-a727-5800e3ba9968" -> "88b365a8-3842-11eb-9aea-5800e3ba9968" [label=N]
+	"88b365a9-3842-11eb-92bc-5800e3ba9968" [label="CRIM <= 6.96215 ? " color=yellow style=filled]
+	"88b3657b-3842-11eb-a6a3-5800e3ba9968" -> "88b365a9-3842-11eb-92bc-5800e3ba9968" [label=N]
+	"88b365aa-3842-11eb-8064-5800e3ba9968" [label="AGE <= 93.8 ? " color=purple style=filled]
+	"88b365a9-3842-11eb-92bc-5800e3ba9968" -> "88b365aa-3842-11eb-8064-5800e3ba9968" [label=Y]
+	"88b365ab-3842-11eb-a181-5800e3ba9968" [label="B <= 306.38 ? " color=orange style=filled]
+	"88b365aa-3842-11eb-8064-5800e3ba9968" -> "88b365ab-3842-11eb-a181-5800e3ba9968" [label=Y]
+	"88b365ac-3842-11eb-baab-5800e3ba9968" [label="samples = 9
+ value = 14.788888888888888" color=orange style=filled]
+	"88b365ab-3842-11eb-a181-5800e3ba9968" -> "88b365ac-3842-11eb-baab-5800e3ba9968" [label=Y]
+	"88b365ad-3842-11eb-96e9-5800e3ba9968" [label="DIS <= 1.9669 ? " color=orange style=filled]
+	"88b365ab-3842-11eb-a181-5800e3ba9968" -> "88b365ad-3842-11eb-96e9-5800e3ba9968" [label=N]
+	"88b365ae-3842-11eb-bebf-5800e3ba9968" [label="samples = 5
+ value = 16.240000000000002" color=yellow style=filled]
+	"88b365ad-3842-11eb-96e9-5800e3ba9968" -> "88b365ae-3842-11eb-bebf-5800e3ba9968" [label=Y]
+	"88b365af-3842-11eb-964a-5800e3ba9968" [label="TAX <= 296.0 ? " color=yellow style=filled]
+	"88b365ad-3842-11eb-96e9-5800e3ba9968" -> "88b365af-3842-11eb-964a-5800e3ba9968" [label=N]
+	"88b365b0-3842-11eb-a646-5800e3ba9968" [label="samples = 10
+ value = 21.21" color=skyblue style=filled]
+	"88b365af-3842-11eb-964a-5800e3ba9968" -> "88b365b0-3842-11eb-a646-5800e3ba9968" [label=Y]
+	"88b365b1-3842-11eb-957e-5800e3ba9968" [label="samples = 23
+ value = 18.797348484848484" color=skyblue style=filled]
+	"88b365af-3842-11eb-964a-5800e3ba9968" -> "88b365b1-3842-11eb-957e-5800e3ba9968" [label=N]
+	"88b365b2-3842-11eb-b96f-5800e3ba9968" [label="LSTAT <= 17.58 ? " color=orange style=filled]
+	"88b365aa-3842-11eb-8064-5800e3ba9968" -> "88b365b2-3842-11eb-b96f-5800e3ba9968" [label=N]
+	"88b365b3-3842-11eb-b9e5-5800e3ba9968" [label="samples = 15
+ value = 17.049999999999997" color=red style=filled]
+	"88b365b2-3842-11eb-b96f-5800e3ba9968" -> "88b365b3-3842-11eb-b9e5-5800e3ba9968" [label=Y]
+	"88b365b4-3842-11eb-82af-5800e3ba9968" [label="NOX <= 0.584 ? " color=red style=filled]
+	"88b365b2-3842-11eb-b96f-5800e3ba9968" -> "88b365b4-3842-11eb-82af-5800e3ba9968" [label=N]
+	"88b365b5-3842-11eb-8c75-5800e3ba9968" [label="PTRATIO <= 20.2 ? " color=orange style=filled]
+	"88b365b4-3842-11eb-82af-5800e3ba9968" -> "88b365b5-3842-11eb-8c75-5800e3ba9968" [label=Y]
+	"88b365b6-3842-11eb-b86c-5800e3ba9968" [label="samples = 7
+ value = 16.614285714285714" color=purple style=filled]
+	"88b365b5-3842-11eb-8c75-5800e3ba9968" -> "88b365b6-3842-11eb-b86c-5800e3ba9968" [label=Y]
+	"88b40188-3842-11eb-b5c0-5800e3ba9968" [label="samples = 5
+ value = 13.479999999999999" color=purple style=filled]
+	"88b365b5-3842-11eb-8c75-5800e3ba9968" -> "88b40188-3842-11eb-b5c0-5800e3ba9968" [label=N]
+	"88b40189-3842-11eb-a22b-5800e3ba9968" [label="samples = 12
+ value = 12.768571428571427" color=orange style=filled]
+	"88b365b4-3842-11eb-82af-5800e3ba9968" -> "88b40189-3842-11eb-a22b-5800e3ba9968" [label=N]
+	"88b4018a-3842-11eb-bffa-5800e3ba9968" [label="NOX <= 0.597 ? " color=purple style=filled]
+	"88b365a9-3842-11eb-92bc-5800e3ba9968" -> "88b4018a-3842-11eb-bffa-5800e3ba9968" [label=N]
+	"88b4018b-3842-11eb-8be2-5800e3ba9968" [label="samples = 11
+ value = 16.811666666666667" color=orange style=filled]
+	"88b4018a-3842-11eb-bffa-5800e3ba9968" -> "88b4018b-3842-11eb-8be2-5800e3ba9968" [label=Y]
+	"88b4018c-3842-11eb-8ccf-5800e3ba9968" [label="LSTAT <= 19.52 ? " color=orange style=filled]
+	"88b4018a-3842-11eb-bffa-5800e3ba9968" -> "88b4018c-3842-11eb-8ccf-5800e3ba9968" [label=N]
+	"88b4018d-3842-11eb-bcd5-5800e3ba9968" [label="samples = 17
+ value = 13.054285714285715" color=yellow style=filled]
+	"88b4018c-3842-11eb-8ccf-5800e3ba9968" -> "88b4018d-3842-11eb-bcd5-5800e3ba9968" [label=Y]
+	"88b4018e-3842-11eb-a9d9-5800e3ba9968" [label="NOX <= 0.671 ? " color=yellow style=filled]
+	"88b4018c-3842-11eb-8ccf-5800e3ba9968" -> "88b4018e-3842-11eb-a9d9-5800e3ba9968" [label=N]
+	"88b4018f-3842-11eb-821c-5800e3ba9968" [label="samples = 10
+ value = 12.63" color=skyblue style=filled]
+	"88b4018e-3842-11eb-a9d9-5800e3ba9968" -> "88b4018f-3842-11eb-821c-5800e3ba9968" [label=Y]
+	"88b40190-3842-11eb-89ef-5800e3ba9968" [label="NOX <= 0.693 ? " color=skyblue style=filled]
+	"88b4018e-3842-11eb-a9d9-5800e3ba9968" -> "88b40190-3842-11eb-89ef-5800e3ba9968" [label=N]
+	"88b40191-3842-11eb-ba19-5800e3ba9968" [label="DIS <= 1.5888 ? " color=pink style=filled]
+	"88b40190-3842-11eb-89ef-5800e3ba9968" -> "88b40191-3842-11eb-ba19-5800e3ba9968" [label=Y]
+	"88b40192-3842-11eb-ac46-5800e3ba9968" [label="samples = 5
+ value = 5.819999999999999" color=tomato style=filled]
+	"88b40191-3842-11eb-ba19-5800e3ba9968" -> "88b40192-3842-11eb-ac46-5800e3ba9968" [label=Y]
+	"88b40193-3842-11eb-b6cd-5800e3ba9968" [label="samples = 10
+ value = 8.8" color=tomato style=filled]
+	"88b40191-3842-11eb-ba19-5800e3ba9968" -> "88b40193-3842-11eb-b6cd-5800e3ba9968" [label=N]
+	"88b40194-3842-11eb-a8e7-5800e3ba9968" [label="CRIM <= 11.1604 ? " color=pink style=filled]
+	"88b40190-3842-11eb-89ef-5800e3ba9968" -> "88b40194-3842-11eb-a8e7-5800e3ba9968" [label=N]
+	"88b40195-3842-11eb-bcae-5800e3ba9968" [label="samples = 6
+ value = 12.183333333333332" color=pink style=filled]
+	"88b40194-3842-11eb-a8e7-5800e3ba9968" -> "88b40195-3842-11eb-bcae-5800e3ba9968" [label=Y]
+	"88b40196-3842-11eb-bc4e-5800e3ba9968" [label="samples = 8
+ value = 9.525" color=pink style=filled]
+	"88b40194-3842-11eb-a8e7-5800e3ba9968" -> "88b40196-3842-11eb-bc4e-5800e3ba9968" [label=N]
+	"88b40197-3842-11eb-95c9-5800e3ba9968" [label="RM <= 7.42 ? " color=green style=filled]
+	"88b3657a-3842-11eb-a188-5800e3ba9968" -> "88b40197-3842-11eb-95c9-5800e3ba9968" [label=N]
+	"88b40198-3842-11eb-b574-5800e3ba9968" [label="LSTAT <= 6.93 ? " color=purple style=filled]
+	"88b40197-3842-11eb-95c9-5800e3ba9968" -> "88b40198-3842-11eb-b574-5800e3ba9968" [label=Y]
+	"88b40199-3842-11eb-b3c7-5800e3ba9968" [label="PTRATIO <= 18.3 ? " color=tomato style=filled]
+	"88b40198-3842-11eb-b574-5800e3ba9968" -> "88b40199-3842-11eb-b3c7-5800e3ba9968" [label=Y]
+	"88b4019a-3842-11eb-902a-5800e3ba9968" [label="TAX <= 252.0 ? " color=tomato style=filled]
+	"88b40199-3842-11eb-b3c7-5800e3ba9968" -> "88b4019a-3842-11eb-902a-5800e3ba9968" [label=Y]
+	"88b4019b-3842-11eb-b836-5800e3ba9968" [label="samples = 5
+ value = 36.019999999999996" color=purple style=filled]
+	"88b4019a-3842-11eb-902a-5800e3ba9968" -> "88b4019b-3842-11eb-b836-5800e3ba9968" [label=Y]
+	"88b4019c-3842-11eb-be3b-5800e3ba9968" [label="AGE <= 49.0 ? " color=purple style=filled]
+	"88b4019a-3842-11eb-902a-5800e3ba9968" -> "88b4019c-3842-11eb-be3b-5800e3ba9968" [label=N]
+	"88b4019d-3842-11eb-ab10-5800e3ba9968" [label="samples = 7
+ value = 33.84285714285714" color=green style=filled]
+	"88b4019c-3842-11eb-be3b-5800e3ba9968" -> "88b4019d-3842-11eb-ab10-5800e3ba9968" [label=Y]
+	"88b4019e-3842-11eb-a40d-5800e3ba9968" [label="samples = 5
+ value = 31.560000000000002" color=green style=filled]
+	"88b4019c-3842-11eb-be3b-5800e3ba9968" -> "88b4019e-3842-11eb-a40d-5800e3ba9968" [label=N]
+	"88b4019f-3842-11eb-bfa4-5800e3ba9968" [label="samples = 5
+ value = 37.82000000000001" color=tomato style=filled]
+	"88b40199-3842-11eb-b3c7-5800e3ba9968" -> "88b4019f-3842-11eb-bfa4-5800e3ba9968" [label=N]
+	"88b401a0-3842-11eb-a802-5800e3ba9968" [label="samples = 9
+ value = 30.22222222222222" color=tomato style=filled]
+	"88b40198-3842-11eb-b574-5800e3ba9968" -> "88b401a0-3842-11eb-a802-5800e3ba9968" [label=N]
+	"88b401a1-3842-11eb-a302-5800e3ba9968" [label="PTRATIO <= 17.4 ? " color=purple style=filled]
+	"88b40197-3842-11eb-95c9-5800e3ba9968" -> "88b401a1-3842-11eb-a302-5800e3ba9968" [label=N]
+	"88b401a2-3842-11eb-8dcd-5800e3ba9968" [label="samples = 14
+ value = 46.36222222222222" color=red style=filled]
+	"88b401a1-3842-11eb-a302-5800e3ba9968" -> "88b401a2-3842-11eb-8dcd-5800e3ba9968" [label=Y]
+	"88b401a3-3842-11eb-903e-5800e3ba9968" [label="samples = 5
+ value = 37.12" color=red style=filled]
+	"88b401a1-3842-11eb-a302-5800e3ba9968" -> "88b401a3-3842-11eb-903e-5800e3ba9968" [label=N]
+}
