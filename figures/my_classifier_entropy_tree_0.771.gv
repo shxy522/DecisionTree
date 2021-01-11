@@ -1,0 +1,555 @@
+// Binary Tree
+digraph {
+	"ff72f502-3e06-11eb-b331-5800e3ba9968" [label="ELONGATEDNESS<=41.0?" color=red style=filled]
+	"ff731c06-3e06-11eb-ae16-5800e3ba9968" [label="MAX.LENGTH ASPECT RATIO <= 13.0 ? " color=yellow style=filled]
+	"ff72f502-3e06-11eb-b331-5800e3ba9968" -> "ff731c06-3e06-11eb-ae16-5800e3ba9968" [label=Y]
+	"ff731c07-3e06-11eb-88ba-5800e3ba9968" [label="SCALED VARIANCE ALONG MINOR AXIS <= 721.0 ? " color=tomato style=filled]
+	"ff731c06-3e06-11eb-ae16-5800e3ba9968" -> "ff731c07-3e06-11eb-88ba-5800e3ba9968" [label=Y]
+	"ff734350-3e06-11eb-9f50-5800e3ba9968" [label="HOLLOWS RATIO <= 196.0 ? " color=green style=filled]
+	"ff731c07-3e06-11eb-88ba-5800e3ba9968" -> "ff734350-3e06-11eb-9f50-5800e3ba9968" [label=Y]
+	"ff734351-3e06-11eb-89e8-5800e3ba9968" [label="KURTOSIS ABOUT MINOR AXIS <= 11.0 ? " color=green style=filled]
+	"ff734350-3e06-11eb-9f50-5800e3ba9968" -> "ff734351-3e06-11eb-89e8-5800e3ba9968" [label=Y]
+	"ff736a36-3e06-11eb-a921-5800e3ba9968" [label="RADIUS RATIO <= 185.0 ? " color=yellow style=filled]
+	"ff734351-3e06-11eb-89e8-5800e3ba9968" -> "ff736a36-3e06-11eb-a921-5800e3ba9968" [label=Y]
+	"ff736a37-3e06-11eb-a87c-5800e3ba9968" [label="samples = 2
+ value = opel" color=orange style=filled]
+	"ff736a36-3e06-11eb-a921-5800e3ba9968" -> "ff736a37-3e06-11eb-a87c-5800e3ba9968" [label=Y]
+	"ff736a38-3e06-11eb-bf46-5800e3ba9968" [label="samples = 4
+ value = saab" color=orange style=filled]
+	"ff736a36-3e06-11eb-a921-5800e3ba9968" -> "ff736a38-3e06-11eb-bf46-5800e3ba9968" [label=N]
+	"ff736a39-3e06-11eb-9743-5800e3ba9968" [label="SCALED RADIUS OF GYRATION <= 221.0 ? " color=yellow style=filled]
+	"ff734351-3e06-11eb-89e8-5800e3ba9968" -> "ff736a39-3e06-11eb-9743-5800e3ba9968" [label=N]
+	"ff7390ca-3e06-11eb-8bc4-5800e3ba9968" [label="samples = 16
+ value = opel" color=orange style=filled]
+	"ff736a39-3e06-11eb-9743-5800e3ba9968" -> "ff7390ca-3e06-11eb-8bc4-5800e3ba9968" [label=Y]
+	"ff7390cb-3e06-11eb-abfd-5800e3ba9968" [label="SCALED VARIANCE ALONG MINOR AXIS <= 650.0 ? " color=orange style=filled]
+	"ff736a39-3e06-11eb-9743-5800e3ba9968" -> "ff7390cb-3e06-11eb-abfd-5800e3ba9968" [label=N]
+	"ff7390cc-3e06-11eb-95b0-5800e3ba9968" [label="samples = 2
+ value = saab" color=green style=filled]
+	"ff7390cb-3e06-11eb-abfd-5800e3ba9968" -> "ff7390cc-3e06-11eb-95b0-5800e3ba9968" [label=Y]
+	"ff7390cd-3e06-11eb-a802-5800e3ba9968" [label="SCALED VARIANCE ALONG MAJOR AXIS <= 218.0 ? " color=green style=filled]
+	"ff7390cb-3e06-11eb-abfd-5800e3ba9968" -> "ff7390cd-3e06-11eb-a802-5800e3ba9968" [label=N]
+	"ff7390ce-3e06-11eb-8673-5800e3ba9968" [label="samples = 1
+ value = saab" color=tomato style=filled]
+	"ff7390cd-3e06-11eb-a802-5800e3ba9968" -> "ff7390ce-3e06-11eb-8673-5800e3ba9968" [label=Y]
+	"ff7390cf-3e06-11eb-b83b-5800e3ba9968" [label="samples = 7
+ value = opel" color=tomato style=filled]
+	"ff7390cd-3e06-11eb-a802-5800e3ba9968" -> "ff7390cf-3e06-11eb-b83b-5800e3ba9968" [label=N]
+	"ff7390d0-3e06-11eb-b68c-5800e3ba9968" [label="SCALED RADIUS OF GYRATION <= 194.0 ? " color=green style=filled]
+	"ff734350-3e06-11eb-9f50-5800e3ba9968" -> "ff7390d0-3e06-11eb-b68c-5800e3ba9968" [label=N]
+	"ff73b7c0-3e06-11eb-8063-5800e3ba9968" [label="HOLLOWS RATIO <= 206.0 ? " color=pink style=filled]
+	"ff7390d0-3e06-11eb-b68c-5800e3ba9968" -> "ff73b7c0-3e06-11eb-8063-5800e3ba9968" [label=Y]
+	"ff73b7c1-3e06-11eb-807c-5800e3ba9968" [label="KURTOSIS ABOUT MINOR AXIS <= 39.0 ? " color=green style=filled]
+	"ff73b7c0-3e06-11eb-8063-5800e3ba9968" -> "ff73b7c1-3e06-11eb-807c-5800e3ba9968" [label=Y]
+	"ff73b7c2-3e06-11eb-922c-5800e3ba9968" [label="COMPACTNESS <= 109.0 ? " color=purple style=filled]
+	"ff73b7c1-3e06-11eb-807c-5800e3ba9968" -> "ff73b7c2-3e06-11eb-922c-5800e3ba9968" [label=Y]
+	"ff73b7c3-3e06-11eb-a55e-5800e3ba9968" [label="samples = 11
+ value = opel" color=purple style=filled]
+	"ff73b7c2-3e06-11eb-922c-5800e3ba9968" -> "ff73b7c3-3e06-11eb-a55e-5800e3ba9968" [label=Y]
+	"ff73b7c4-3e06-11eb-8f55-5800e3ba9968" [label="COMPACTNESS <= 93.0 ? " color=purple style=filled]
+	"ff73b7c2-3e06-11eb-922c-5800e3ba9968" -> "ff73b7c4-3e06-11eb-8f55-5800e3ba9968" [label=N]
+	"ff73b7c5-3e06-11eb-9c8e-5800e3ba9968" [label="samples = 3
+ value = saab" color=orange style=filled]
+	"ff73b7c4-3e06-11eb-8f55-5800e3ba9968" -> "ff73b7c5-3e06-11eb-9c8e-5800e3ba9968" [label=Y]
+	"ff73deba-3e06-11eb-af33-5800e3ba9968" [label="samples = 5
+ value = opel" color=orange style=filled]
+	"ff73b7c4-3e06-11eb-8f55-5800e3ba9968" -> "ff73deba-3e06-11eb-af33-5800e3ba9968" [label=N]
+	"ff73debb-3e06-11eb-9c8f-5800e3ba9968" [label="CIRCULARITY <= 51.0 ? " color=purple style=filled]
+	"ff73b7c1-3e06-11eb-807c-5800e3ba9968" -> "ff73debb-3e06-11eb-9c8f-5800e3ba9968" [label=N]
+	"ff73debc-3e06-11eb-bfd6-5800e3ba9968" [label="samples = 4
+ value = saab" color=skyblue style=filled]
+	"ff73debb-3e06-11eb-9c8f-5800e3ba9968" -> "ff73debc-3e06-11eb-bfd6-5800e3ba9968" [label=Y]
+	"ff73debd-3e06-11eb-b450-5800e3ba9968" [label="samples = 1
+ value = opel" color=skyblue style=filled]
+	"ff73debb-3e06-11eb-9c8f-5800e3ba9968" -> "ff73debd-3e06-11eb-b450-5800e3ba9968" [label=N]
+	"ff73debe-3e06-11eb-811d-5800e3ba9968" [label="DISTANCE CIRCULARITY <= 88.0 ? " color=green style=filled]
+	"ff73b7c0-3e06-11eb-8063-5800e3ba9968" -> "ff73debe-3e06-11eb-811d-5800e3ba9968" [label=N]
+	"ff73debf-3e06-11eb-9dda-5800e3ba9968" [label="samples = 7
+ value = saab" color=green style=filled]
+	"ff73debe-3e06-11eb-811d-5800e3ba9968" -> "ff73debf-3e06-11eb-9dda-5800e3ba9968" [label=Y]
+	"ff73dec0-3e06-11eb-99a6-5800e3ba9968" [label="samples = 1
+ value = opel" color=green style=filled]
+	"ff73debe-3e06-11eb-811d-5800e3ba9968" -> "ff73dec0-3e06-11eb-99a6-5800e3ba9968" [label=N]
+	"ff7405be-3e06-11eb-8c35-5800e3ba9968" [label="KURTOSIS ABOUT MAJOR AXIS <= 187.0 ? " color=pink style=filled]
+	"ff7390d0-3e06-11eb-b68c-5800e3ba9968" -> "ff7405be-3e06-11eb-8c35-5800e3ba9968" [label=N]
+	"ff7405bf-3e06-11eb-b905-5800e3ba9968" [label="samples = 13
+ value = saab" color=green style=filled]
+	"ff7405be-3e06-11eb-8c35-5800e3ba9968" -> "ff7405bf-3e06-11eb-b905-5800e3ba9968" [label=Y]
+	"ff7405c0-3e06-11eb-a125-5800e3ba9968" [label="KURTOSIS ABOUT MINOR AXIS <= 2.0 ? " color=green style=filled]
+	"ff7405be-3e06-11eb-8c35-5800e3ba9968" -> "ff7405c0-3e06-11eb-a125-5800e3ba9968" [label=N]
+	"ff7405c1-3e06-11eb-9f1a-5800e3ba9968" [label="SKEWNESS ABOUT MINOR AXIS <= 0.0 ? " color=green style=filled]
+	"ff7405c0-3e06-11eb-a125-5800e3ba9968" -> "ff7405c1-3e06-11eb-9f1a-5800e3ba9968" [label=Y]
+	"ff742e9c-3e06-11eb-bf0c-5800e3ba9968" [label="COMPACTNESS <= 101.0 ? " color=yellow style=filled]
+	"ff7405c1-3e06-11eb-9f1a-5800e3ba9968" -> "ff742e9c-3e06-11eb-bf0c-5800e3ba9968" [label=Y]
+	"ff742e9d-3e06-11eb-987e-5800e3ba9968" [label="samples = 1
+ value = saab" color=tomato style=filled]
+	"ff742e9c-3e06-11eb-bf0c-5800e3ba9968" -> "ff742e9d-3e06-11eb-987e-5800e3ba9968" [label=Y]
+	"ff742e9e-3e06-11eb-ba74-5800e3ba9968" [label="samples = 1
+ value = opel" color=tomato style=filled]
+	"ff742e9c-3e06-11eb-bf0c-5800e3ba9968" -> "ff742e9e-3e06-11eb-ba74-5800e3ba9968" [label=N]
+	"ff742e9f-3e06-11eb-a436-5800e3ba9968" [label="samples = 16
+ value = saab" color=yellow style=filled]
+	"ff7405c1-3e06-11eb-9f1a-5800e3ba9968" -> "ff742e9f-3e06-11eb-a436-5800e3ba9968" [label=N]
+	"ff742ea0-3e06-11eb-a5a5-5800e3ba9968" [label="CIRCULARITY <= 54.0 ? " color=green style=filled]
+	"ff7405c0-3e06-11eb-a125-5800e3ba9968" -> "ff742ea0-3e06-11eb-a5a5-5800e3ba9968" [label=N]
+	"ff745398-3e06-11eb-8b39-5800e3ba9968" [label="SCALED VARIANCE ALONG MINOR AXIS <= 709.0 ? " color=red style=filled]
+	"ff742ea0-3e06-11eb-a5a5-5800e3ba9968" -> "ff745398-3e06-11eb-8b39-5800e3ba9968" [label=Y]
+	"ff745399-3e06-11eb-a12a-5800e3ba9968" [label="SKEWNESS ABOUT MAJOR AXIS <= 64.0 ? " color=tomato style=filled]
+	"ff745398-3e06-11eb-8b39-5800e3ba9968" -> "ff745399-3e06-11eb-a12a-5800e3ba9968" [label=Y]
+	"ff74539a-3e06-11eb-a1f9-5800e3ba9968" [label="samples = 2
+ value = opel" color=yellow style=filled]
+	"ff745399-3e06-11eb-a12a-5800e3ba9968" -> "ff74539a-3e06-11eb-a1f9-5800e3ba9968" [label=Y]
+	"ff74539b-3e06-11eb-88bf-5800e3ba9968" [label="KURTOSIS ABOUT MINOR AXIS <= 20.0 ? " color=yellow style=filled]
+	"ff745399-3e06-11eb-a12a-5800e3ba9968" -> "ff74539b-3e06-11eb-88bf-5800e3ba9968" [label=N]
+	"ff74539c-3e06-11eb-b33b-5800e3ba9968" [label="samples = 2
+ value = opel" color=orange style=filled]
+	"ff74539b-3e06-11eb-88bf-5800e3ba9968" -> "ff74539c-3e06-11eb-b33b-5800e3ba9968" [label=Y]
+	"ff747a8c-3e06-11eb-993b-5800e3ba9968" [label="SCALED VARIANCE ALONG MAJOR AXIS <= 231.0 ? " color=orange style=filled]
+	"ff74539b-3e06-11eb-88bf-5800e3ba9968" -> "ff747a8c-3e06-11eb-993b-5800e3ba9968" [label=N]
+	"ff747a8d-3e06-11eb-ada9-5800e3ba9968" [label="samples = 25
+ value = saab" color=skyblue style=filled]
+	"ff747a8c-3e06-11eb-993b-5800e3ba9968" -> "ff747a8d-3e06-11eb-ada9-5800e3ba9968" [label=Y]
+	"ff747a8e-3e06-11eb-9a86-5800e3ba9968" [label="RADIUS RATIO <= 193.0 ? " color=skyblue style=filled]
+	"ff747a8c-3e06-11eb-993b-5800e3ba9968" -> "ff747a8e-3e06-11eb-9a86-5800e3ba9968" [label=N]
+	"ff747a8f-3e06-11eb-b672-5800e3ba9968" [label="samples = 2
+ value = saab" color=orange style=filled]
+	"ff747a8e-3e06-11eb-9a86-5800e3ba9968" -> "ff747a8f-3e06-11eb-b672-5800e3ba9968" [label=Y]
+	"ff747a90-3e06-11eb-a3da-5800e3ba9968" [label="samples = 2
+ value = opel" color=orange style=filled]
+	"ff747a8e-3e06-11eb-9a86-5800e3ba9968" -> "ff747a90-3e06-11eb-a3da-5800e3ba9968" [label=N]
+	"ff74a180-3e06-11eb-96eb-5800e3ba9968" [label="samples = 2
+ value = opel" color=tomato style=filled]
+	"ff745398-3e06-11eb-8b39-5800e3ba9968" -> "ff74a180-3e06-11eb-96eb-5800e3ba9968" [label=N]
+	"ff74a181-3e06-11eb-87a9-5800e3ba9968" [label="samples = 3
+ value = opel" color=red style=filled]
+	"ff742ea0-3e06-11eb-a5a5-5800e3ba9968" -> "ff74a181-3e06-11eb-87a9-5800e3ba9968" [label=N]
+	"ff74a182-3e06-11eb-9b59-5800e3ba9968" [label="samples = 17
+ value = opel" color=green style=filled]
+	"ff731c07-3e06-11eb-88ba-5800e3ba9968" -> "ff74a182-3e06-11eb-9b59-5800e3ba9968" [label=N]
+	"ff74a183-3e06-11eb-a482-5800e3ba9968" [label="MAX.LENGTH ASPECT RATIO <= 7.0 ? " color=tomato style=filled]
+	"ff731c06-3e06-11eb-ae16-5800e3ba9968" -> "ff74a183-3e06-11eb-a482-5800e3ba9968" [label=N]
+	"ff74a184-3e06-11eb-912f-5800e3ba9968" [label="ELONGATEDNESS <= 36.0 ? " color=red style=filled]
+	"ff74a183-3e06-11eb-a482-5800e3ba9968" -> "ff74a184-3e06-11eb-912f-5800e3ba9968" [label=Y]
+	"ff74a185-3e06-11eb-a34c-5800e3ba9968" [label="samples = 48
+ value = bus" color=red style=filled]
+	"ff74a184-3e06-11eb-912f-5800e3ba9968" -> "ff74a185-3e06-11eb-a34c-5800e3ba9968" [label=Y]
+	"ff74c86e-3e06-11eb-97f8-5800e3ba9968" [label="PR.AXIS ASPECT RATIO <= 66.0 ? " color=red style=filled]
+	"ff74a184-3e06-11eb-912f-5800e3ba9968" -> "ff74c86e-3e06-11eb-97f8-5800e3ba9968" [label=N]
+	"ff74c86f-3e06-11eb-90d4-5800e3ba9968" [label="KURTOSIS ABOUT MAJOR AXIS <= 195.0 ? " color=tomato style=filled]
+	"ff74c86e-3e06-11eb-97f8-5800e3ba9968" -> "ff74c86f-3e06-11eb-90d4-5800e3ba9968" [label=Y]
+	"ff74c870-3e06-11eb-89da-5800e3ba9968" [label="COMPACTNESS <= 89.0 ? " color=red style=filled]
+	"ff74c86f-3e06-11eb-90d4-5800e3ba9968" -> "ff74c870-3e06-11eb-89da-5800e3ba9968" [label=Y]
+	"ff74c871-3e06-11eb-bfcf-5800e3ba9968" [label="SCATTER RATIO <= 161.0 ? " color=pink style=filled]
+	"ff74c870-3e06-11eb-89da-5800e3ba9968" -> "ff74c871-3e06-11eb-bfcf-5800e3ba9968" [label=Y]
+	"ff74c872-3e06-11eb-a602-5800e3ba9968" [label="samples = 1
+ value = saab" color=pink style=filled]
+	"ff74c871-3e06-11eb-bfcf-5800e3ba9968" -> "ff74c872-3e06-11eb-a602-5800e3ba9968" [label=Y]
+	"ff74ef62-3e06-11eb-8b75-5800e3ba9968" [label="samples = 5
+ value = opel" color=pink style=filled]
+	"ff74c871-3e06-11eb-bfcf-5800e3ba9968" -> "ff74ef62-3e06-11eb-8b75-5800e3ba9968" [label=N]
+	"ff74ef63-3e06-11eb-8f75-5800e3ba9968" [label="SKEWNESS ABOUT MAJOR AXIS <= 71.0 ? " color=pink style=filled]
+	"ff74c870-3e06-11eb-89da-5800e3ba9968" -> "ff74ef63-3e06-11eb-8f75-5800e3ba9968" [label=N]
+	"ff74ef64-3e06-11eb-b895-5800e3ba9968" [label="samples = 7
+ value = saab" color=purple style=filled]
+	"ff74ef63-3e06-11eb-8f75-5800e3ba9968" -> "ff74ef64-3e06-11eb-b895-5800e3ba9968" [label=Y]
+	"ff74ef65-3e06-11eb-9cf4-5800e3ba9968" [label="samples = 1
+ value = opel" color=purple style=filled]
+	"ff74ef63-3e06-11eb-8f75-5800e3ba9968" -> "ff74ef65-3e06-11eb-9cf4-5800e3ba9968" [label=N]
+	"ff751664-3e06-11eb-a657-5800e3ba9968" [label="ELONGATEDNESS <= 39.0 ? " color=red style=filled]
+	"ff74c86f-3e06-11eb-90d4-5800e3ba9968" -> "ff751664-3e06-11eb-a657-5800e3ba9968" [label=N]
+	"ff753d52-3e06-11eb-a627-5800e3ba9968" [label="samples = 3
+ value = bus" color=tomato style=filled]
+	"ff751664-3e06-11eb-a657-5800e3ba9968" -> "ff753d52-3e06-11eb-a627-5800e3ba9968" [label=Y]
+	"ff753d53-3e06-11eb-b3f0-5800e3ba9968" [label="samples = 2
+ value = opel" color=tomato style=filled]
+	"ff751664-3e06-11eb-a657-5800e3ba9968" -> "ff753d53-3e06-11eb-b3f0-5800e3ba9968" [label=N]
+	"ff76004c-3e06-11eb-b4b9-5800e3ba9968" [label="samples = 22
+ value = bus" color=tomato style=filled]
+	"ff74c86e-3e06-11eb-97f8-5800e3ba9968" -> "ff76004c-3e06-11eb-b4b9-5800e3ba9968" [label=N]
+	"ff76004d-3e06-11eb-b64e-5800e3ba9968" [label="SCALED RADIUS OF GYRATION <= 234.0 ? " color=red style=filled]
+	"ff74a183-3e06-11eb-a482-5800e3ba9968" -> "ff76004d-3e06-11eb-b64e-5800e3ba9968" [label=N]
+	"ff76004e-3e06-11eb-a7fb-5800e3ba9968" [label="COMPACTNESS <= 97.0 ? " color=pink style=filled]
+	"ff76004d-3e06-11eb-b64e-5800e3ba9968" -> "ff76004e-3e06-11eb-a7fb-5800e3ba9968" [label=Y]
+	"ff762728-3e06-11eb-b0f2-5800e3ba9968" [label="COMPACTNESS <= 100.0 ? " color=pink style=filled]
+	"ff76004e-3e06-11eb-a7fb-5800e3ba9968" -> "ff762728-3e06-11eb-b0f2-5800e3ba9968" [label=Y]
+	"ff762729-3e06-11eb-9953-5800e3ba9968" [label="samples = 4
+ value = opel" color=red style=filled]
+	"ff762728-3e06-11eb-b0f2-5800e3ba9968" -> "ff762729-3e06-11eb-9953-5800e3ba9968" [label=Y]
+	"ff76272a-3e06-11eb-843a-5800e3ba9968" [label="MAX.LENGTH RECTANGULARITY <= 131.0 ? " color=red style=filled]
+	"ff762728-3e06-11eb-b0f2-5800e3ba9968" -> "ff76272a-3e06-11eb-843a-5800e3ba9968" [label=N]
+	"ff76272b-3e06-11eb-8595-5800e3ba9968" [label="samples = 4
+ value = opel" color=red style=filled]
+	"ff76272a-3e06-11eb-843a-5800e3ba9968" -> "ff76272b-3e06-11eb-8595-5800e3ba9968" [label=Y]
+	"ff76272c-3e06-11eb-aac3-5800e3ba9968" [label="CIRCULARITY <= 45.0 ? " color=red style=filled]
+	"ff76272a-3e06-11eb-843a-5800e3ba9968" -> "ff76272c-3e06-11eb-aac3-5800e3ba9968" [label=N]
+	"ff764e0a-3e06-11eb-9bca-5800e3ba9968" [label="SCALED RADIUS OF GYRATION <= 157.0 ? " color=tomato style=filled]
+	"ff76272c-3e06-11eb-aac3-5800e3ba9968" -> "ff764e0a-3e06-11eb-9bca-5800e3ba9968" [label=Y]
+	"ff764e0b-3e06-11eb-a432-5800e3ba9968" [label="RADIUS RATIO <= 189.0 ? " color=green style=filled]
+	"ff764e0a-3e06-11eb-9bca-5800e3ba9968" -> "ff764e0b-3e06-11eb-a432-5800e3ba9968" [label=Y]
+	"ff767500-3e06-11eb-aefa-5800e3ba9968" [label="RADIUS RATIO <= 178.0 ? " color=green style=filled]
+	"ff764e0b-3e06-11eb-a432-5800e3ba9968" -> "ff767500-3e06-11eb-aefa-5800e3ba9968" [label=Y]
+	"ff767501-3e06-11eb-93b3-5800e3ba9968" [label="RADIUS RATIO <= 175.0 ? " color=yellow style=filled]
+	"ff767500-3e06-11eb-aefa-5800e3ba9968" -> "ff767501-3e06-11eb-93b3-5800e3ba9968" [label=Y]
+	"ff767502-3e06-11eb-9694-5800e3ba9968" [label="DISTANCE CIRCULARITY <= 76.0 ? " color=purple style=filled]
+	"ff767501-3e06-11eb-93b3-5800e3ba9968" -> "ff767502-3e06-11eb-9694-5800e3ba9968" [label=Y]
+	"ff767503-3e06-11eb-a4a3-5800e3ba9968" [label="samples = 1
+ value = opel" color=skyblue style=filled]
+	"ff767502-3e06-11eb-9694-5800e3ba9968" -> "ff767503-3e06-11eb-a4a3-5800e3ba9968" [label=Y]
+	"ff769bf8-3e06-11eb-a263-5800e3ba9968" [label="samples = 3
+ value = saab" color=skyblue style=filled]
+	"ff767502-3e06-11eb-9694-5800e3ba9968" -> "ff769bf8-3e06-11eb-a263-5800e3ba9968" [label=N]
+	"ff769bf9-3e06-11eb-89e4-5800e3ba9968" [label="samples = 3
+ value = opel" color=purple style=filled]
+	"ff767501-3e06-11eb-93b3-5800e3ba9968" -> "ff769bf9-3e06-11eb-89e4-5800e3ba9968" [label=N]
+	"ff769bfa-3e06-11eb-9031-5800e3ba9968" [label="samples = 6
+ value = saab" color=yellow style=filled]
+	"ff767500-3e06-11eb-aefa-5800e3ba9968" -> "ff769bfa-3e06-11eb-9031-5800e3ba9968" [label=N]
+	"ff769bfb-3e06-11eb-9508-5800e3ba9968" [label="samples = 4
+ value = opel" color=green style=filled]
+	"ff764e0b-3e06-11eb-a432-5800e3ba9968" -> "ff769bfb-3e06-11eb-9508-5800e3ba9968" [label=N]
+	"ff769bfc-3e06-11eb-b329-5800e3ba9968" [label="samples = 9
+ value = saab" color=green style=filled]
+	"ff764e0a-3e06-11eb-9bca-5800e3ba9968" -> "ff769bfc-3e06-11eb-b329-5800e3ba9968" [label=N]
+	"ff76c2ee-3e06-11eb-b96f-5800e3ba9968" [label="SKEWNESS ABOUT MINOR AXIS <= 10.0 ? " color=tomato style=filled]
+	"ff76272c-3e06-11eb-aac3-5800e3ba9968" -> "ff76c2ee-3e06-11eb-b96f-5800e3ba9968" [label=N]
+	"ff76c2ef-3e06-11eb-a432-5800e3ba9968" [label="samples = 3
+ value = saab" color=pink style=filled]
+	"ff76c2ee-3e06-11eb-b96f-5800e3ba9968" -> "ff76c2ef-3e06-11eb-a432-5800e3ba9968" [label=Y]
+	"ff76c2f0-3e06-11eb-90ee-5800e3ba9968" [label="COMPACTNESS <= 89.0 ? " color=pink style=filled]
+	"ff76c2ee-3e06-11eb-b96f-5800e3ba9968" -> "ff76c2f0-3e06-11eb-90ee-5800e3ba9968" [label=N]
+	"ff76e9da-3e06-11eb-9b71-5800e3ba9968" [label="COMPACTNESS <= 106.0 ? " color=green style=filled]
+	"ff76c2f0-3e06-11eb-90ee-5800e3ba9968" -> "ff76e9da-3e06-11eb-9b71-5800e3ba9968" [label=Y]
+	"ff76e9db-3e06-11eb-a7fb-5800e3ba9968" [label="SCALED VARIANCE ALONG MINOR AXIS <= 527.0 ? " color=orange style=filled]
+	"ff76e9da-3e06-11eb-9b71-5800e3ba9968" -> "ff76e9db-3e06-11eb-a7fb-5800e3ba9968" [label=Y]
+	"ff76e9dc-3e06-11eb-a409-5800e3ba9968" [label="samples = 1
+ value = saab" color=tomato style=filled]
+	"ff76e9db-3e06-11eb-a7fb-5800e3ba9968" -> "ff76e9dc-3e06-11eb-a409-5800e3ba9968" [label=Y]
+	"ff76e9dd-3e06-11eb-a3a4-5800e3ba9968" [label="samples = 5
+ value = opel" color=tomato style=filled]
+	"ff76e9db-3e06-11eb-a7fb-5800e3ba9968" -> "ff76e9dd-3e06-11eb-a3a4-5800e3ba9968" [label=N]
+	"ff76e9de-3e06-11eb-b451-5800e3ba9968" [label="SCALED RADIUS OF GYRATION <= 191.0 ? " color=orange style=filled]
+	"ff76e9da-3e06-11eb-9b71-5800e3ba9968" -> "ff76e9de-3e06-11eb-b451-5800e3ba9968" [label=N]
+	"ff7710e2-3e06-11eb-8af4-5800e3ba9968" [label="samples = 5
+ value = saab" color=green style=filled]
+	"ff76e9de-3e06-11eb-b451-5800e3ba9968" -> "ff7710e2-3e06-11eb-8af4-5800e3ba9968" [label=Y]
+	"ff7710e3-3e06-11eb-957a-5800e3ba9968" [label="DISTANCE CIRCULARITY <= 86.0 ? " color=green style=filled]
+	"ff76e9de-3e06-11eb-b451-5800e3ba9968" -> "ff7710e3-3e06-11eb-957a-5800e3ba9968" [label=N]
+	"ff773876-3e06-11eb-8a8f-5800e3ba9968" [label="samples = 2
+ value = opel" color=skyblue style=filled]
+	"ff7710e3-3e06-11eb-957a-5800e3ba9968" -> "ff773876-3e06-11eb-8a8f-5800e3ba9968" [label=Y]
+	"ff773877-3e06-11eb-a3c0-5800e3ba9968" [label="samples = 1
+ value = saab" color=skyblue style=filled]
+	"ff7710e3-3e06-11eb-957a-5800e3ba9968" -> "ff773877-3e06-11eb-a3c0-5800e3ba9968" [label=N]
+	"ff773878-3e06-11eb-a7dc-5800e3ba9968" [label="CIRCULARITY <= 49.0 ? " color=green style=filled]
+	"ff76c2f0-3e06-11eb-90ee-5800e3ba9968" -> "ff773878-3e06-11eb-a7dc-5800e3ba9968" [label=N]
+	"ff773879-3e06-11eb-9082-5800e3ba9968" [label="samples = 9
+ value = opel" color=purple style=filled]
+	"ff773878-3e06-11eb-a7dc-5800e3ba9968" -> "ff773879-3e06-11eb-9082-5800e3ba9968" [label=Y]
+	"ff77387a-3e06-11eb-b039-5800e3ba9968" [label="CIRCULARITY <= 50.0 ? " color=purple style=filled]
+	"ff773878-3e06-11eb-a7dc-5800e3ba9968" -> "ff77387a-3e06-11eb-b039-5800e3ba9968" [label=N]
+	"ff775ebe-3e06-11eb-bcb4-5800e3ba9968" [label="samples = 1
+ value = saab" color=skyblue style=filled]
+	"ff77387a-3e06-11eb-b039-5800e3ba9968" -> "ff775ebe-3e06-11eb-bcb4-5800e3ba9968" [label=Y]
+	"ff7785ae-3e06-11eb-b71c-5800e3ba9968" [label="samples = 1
+ value = opel" color=skyblue style=filled]
+	"ff77387a-3e06-11eb-b039-5800e3ba9968" -> "ff7785ae-3e06-11eb-b71c-5800e3ba9968" [label=N]
+	"ff7785af-3e06-11eb-8dbd-5800e3ba9968" [label="samples = 6
+ value = saab" color=pink style=filled]
+	"ff76004e-3e06-11eb-a7fb-5800e3ba9968" -> "ff7785af-3e06-11eb-8dbd-5800e3ba9968" [label=N]
+	"ff7785b0-3e06-11eb-9ec8-5800e3ba9968" [label="samples = 6
+ value = opel" color=pink style=filled]
+	"ff76004d-3e06-11eb-b64e-5800e3ba9968" -> "ff7785b0-3e06-11eb-9ec8-5800e3ba9968" [label=N]
+	"ff7785b1-3e06-11eb-8f5a-5800e3ba9968" [label="MAX.LENGTH RECTANGULARITY <= 138.0 ? " color=yellow style=filled]
+	"ff72f502-3e06-11eb-b331-5800e3ba9968" -> "ff7785b1-3e06-11eb-8f5a-5800e3ba9968" [label=N]
+	"ff77aca6-3e06-11eb-b326-5800e3ba9968" [label="SCATTER RATIO <= 143.0 ? " color=orange style=filled]
+	"ff7785b1-3e06-11eb-8f5a-5800e3ba9968" -> "ff77aca6-3e06-11eb-b326-5800e3ba9968" [label=Y]
+	"ff77aca7-3e06-11eb-b964-5800e3ba9968" [label="COMPACTNESS <= 82.0 ? " color=pink style=filled]
+	"ff77aca6-3e06-11eb-b326-5800e3ba9968" -> "ff77aca7-3e06-11eb-b964-5800e3ba9968" [label=Y]
+	"ff77aca8-3e06-11eb-ade1-5800e3ba9968" [label="PR.AXIS ASPECT RATIO <= 54.0 ? " color=skyblue style=filled]
+	"ff77aca7-3e06-11eb-b964-5800e3ba9968" -> "ff77aca8-3e06-11eb-ade1-5800e3ba9968" [label=Y]
+	"ff77aca9-3e06-11eb-bd22-5800e3ba9968" [label="KURTOSIS ABOUT MINOR AXIS <= 21.0 ? " color=skyblue style=filled]
+	"ff77aca8-3e06-11eb-ade1-5800e3ba9968" -> "ff77aca9-3e06-11eb-bd22-5800e3ba9968" [label=Y]
+	"ff77acaa-3e06-11eb-98d3-5800e3ba9968" [label="samples = 2
+ value = opel" color=yellow style=filled]
+	"ff77aca9-3e06-11eb-bd22-5800e3ba9968" -> "ff77acaa-3e06-11eb-98d3-5800e3ba9968" [label=Y]
+	"ff77acab-3e06-11eb-b62e-5800e3ba9968" [label="samples = 4
+ value = saab" color=yellow style=filled]
+	"ff77aca9-3e06-11eb-bd22-5800e3ba9968" -> "ff77acab-3e06-11eb-b62e-5800e3ba9968" [label=N]
+	"ff77d39c-3e06-11eb-914b-5800e3ba9968" [label="samples = 8
+ value = opel" color=skyblue style=filled]
+	"ff77aca8-3e06-11eb-ade1-5800e3ba9968" -> "ff77d39c-3e06-11eb-914b-5800e3ba9968" [label=N]
+	"ff77d39d-3e06-11eb-9ec5-5800e3ba9968" [label="SCALED VARIANCE ALONG MINOR AXIS <= 251.0 ? " color=skyblue style=filled]
+	"ff77aca7-3e06-11eb-b964-5800e3ba9968" -> "ff77d39d-3e06-11eb-9ec5-5800e3ba9968" [label=N]
+	"ff77d39e-3e06-11eb-8794-5800e3ba9968" [label="MAX.LENGTH RECTANGULARITY <= 121.0 ? " color=skyblue style=filled]
+	"ff77d39d-3e06-11eb-9ec5-5800e3ba9968" -> "ff77d39e-3e06-11eb-8794-5800e3ba9968" [label=Y]
+	"ff77fa9a-3e06-11eb-b39c-5800e3ba9968" [label="samples = 3
+ value = saab" color=pink style=filled]
+	"ff77d39e-3e06-11eb-8794-5800e3ba9968" -> "ff77fa9a-3e06-11eb-b39c-5800e3ba9968" [label=Y]
+	"ff77fa9b-3e06-11eb-8774-5800e3ba9968" [label="SCATTER RATIO <= 120.0 ? " color=pink style=filled]
+	"ff77d39e-3e06-11eb-8794-5800e3ba9968" -> "ff77fa9b-3e06-11eb-8774-5800e3ba9968" [label=N]
+	"ff77fa9c-3e06-11eb-8020-5800e3ba9968" [label="ELONGATEDNESS <= 58.0 ? " color=pink style=filled]
+	"ff77fa9b-3e06-11eb-8774-5800e3ba9968" -> "ff77fa9c-3e06-11eb-8020-5800e3ba9968" [label=Y]
+	"ff77fa9d-3e06-11eb-ab31-5800e3ba9968" [label="samples = 18
+ value = van" color=skyblue style=filled]
+	"ff77fa9c-3e06-11eb-8020-5800e3ba9968" -> "ff77fa9d-3e06-11eb-ab31-5800e3ba9968" [label=Y]
+	"ff78218c-3e06-11eb-95c7-5800e3ba9968" [label="samples = 1
+ value = opel" color=skyblue style=filled]
+	"ff77fa9c-3e06-11eb-8020-5800e3ba9968" -> "ff78218c-3e06-11eb-95c7-5800e3ba9968" [label=N]
+	"ff78218d-3e06-11eb-8e6c-5800e3ba9968" [label="SCALED RADIUS OF GYRATION <= 119.0 ? " color=pink style=filled]
+	"ff77fa9b-3e06-11eb-8774-5800e3ba9968" -> "ff78218d-3e06-11eb-8e6c-5800e3ba9968" [label=N]
+	"ff78218e-3e06-11eb-9b04-5800e3ba9968" [label="samples = 7
+ value = van" color=skyblue style=filled]
+	"ff78218d-3e06-11eb-8e6c-5800e3ba9968" -> "ff78218e-3e06-11eb-9b04-5800e3ba9968" [label=Y]
+	"ff78218f-3e06-11eb-80e9-5800e3ba9968" [label="SKEWNESS ABOUT MAJOR AXIS <= 74.0 ? " color=skyblue style=filled]
+	"ff78218d-3e06-11eb-8e6c-5800e3ba9968" -> "ff78218f-3e06-11eb-80e9-5800e3ba9968" [label=N]
+	"ff7848de-3e06-11eb-9bcf-5800e3ba9968" [label="COMPACTNESS <= 85.0 ? " color=purple style=filled]
+	"ff78218f-3e06-11eb-80e9-5800e3ba9968" -> "ff7848de-3e06-11eb-9bcf-5800e3ba9968" [label=Y]
+	"ff7848df-3e06-11eb-8af3-5800e3ba9968" [label="samples = 3
+ value = opel" color=orange style=filled]
+	"ff7848de-3e06-11eb-9bcf-5800e3ba9968" -> "ff7848df-3e06-11eb-8af3-5800e3ba9968" [label=Y]
+	"ff78701c-3e06-11eb-a935-5800e3ba9968" [label="COMPACTNESS <= 93.0 ? " color=orange style=filled]
+	"ff7848de-3e06-11eb-9bcf-5800e3ba9968" -> "ff78701c-3e06-11eb-a935-5800e3ba9968" [label=N]
+	"ff78701d-3e06-11eb-bc0f-5800e3ba9968" [label="samples = 3
+ value = saab" color=purple style=filled]
+	"ff78701c-3e06-11eb-a935-5800e3ba9968" -> "ff78701d-3e06-11eb-bc0f-5800e3ba9968" [label=Y]
+	"ff78701e-3e06-11eb-96ca-5800e3ba9968" [label="samples = 1
+ value = van" color=purple style=filled]
+	"ff78701c-3e06-11eb-a935-5800e3ba9968" -> "ff78701e-3e06-11eb-96ca-5800e3ba9968" [label=N]
+	"ff78701f-3e06-11eb-8a53-5800e3ba9968" [label="MAX.LENGTH ASPECT RATIO <= 4.0 ? " color=purple style=filled]
+	"ff78218f-3e06-11eb-80e9-5800e3ba9968" -> "ff78701f-3e06-11eb-8a53-5800e3ba9968" [label=N]
+	"ff787020-3e06-11eb-a078-5800e3ba9968" [label="samples = 1
+ value = saab" color=tomato style=filled]
+	"ff78701f-3e06-11eb-8a53-5800e3ba9968" -> "ff787020-3e06-11eb-a078-5800e3ba9968" [label=Y]
+	"ff789664-3e06-11eb-93a2-5800e3ba9968" [label="samples = 4
+ value = van" color=tomato style=filled]
+	"ff78701f-3e06-11eb-8a53-5800e3ba9968" -> "ff789664-3e06-11eb-93a2-5800e3ba9968" [label=N]
+	"ff789665-3e06-11eb-981a-5800e3ba9968" [label="PR.AXIS ASPECT RATIO <= 57.0 ? " color=skyblue style=filled]
+	"ff77d39d-3e06-11eb-9ec5-5800e3ba9968" -> "ff789665-3e06-11eb-981a-5800e3ba9968" [label=N]
+	"ff789666-3e06-11eb-8f3a-5800e3ba9968" [label="MAX.LENGTH ASPECT RATIO <= 6.0 ? " color=yellow style=filled]
+	"ff789665-3e06-11eb-981a-5800e3ba9968" -> "ff789666-3e06-11eb-8f3a-5800e3ba9968" [label=Y]
+	"ff789667-3e06-11eb-bb53-5800e3ba9968" [label="MAX.LENGTH ASPECT RATIO <= 5.0 ? " color=tomato style=filled]
+	"ff789666-3e06-11eb-8f3a-5800e3ba9968" -> "ff789667-3e06-11eb-bb53-5800e3ba9968" [label=Y]
+	"ff789668-3e06-11eb-aecb-5800e3ba9968" [label="COMPACTNESS <= 88.0 ? " color=yellow style=filled]
+	"ff789667-3e06-11eb-bb53-5800e3ba9968" -> "ff789668-3e06-11eb-aecb-5800e3ba9968" [label=Y]
+	"ff78bd5c-3e06-11eb-84db-5800e3ba9968" [label="samples = 3
+ value = opel" color=skyblue style=filled]
+	"ff789668-3e06-11eb-aecb-5800e3ba9968" -> "ff78bd5c-3e06-11eb-84db-5800e3ba9968" [label=Y]
+	"ff78bd5d-3e06-11eb-92f1-5800e3ba9968" [label="samples = 1
+ value = saab" color=skyblue style=filled]
+	"ff789668-3e06-11eb-aecb-5800e3ba9968" -> "ff78bd5d-3e06-11eb-92f1-5800e3ba9968" [label=N]
+	"ff78bd5e-3e06-11eb-82af-5800e3ba9968" [label="samples = 2
+ value = saab" color=yellow style=filled]
+	"ff789667-3e06-11eb-bb53-5800e3ba9968" -> "ff78bd5e-3e06-11eb-82af-5800e3ba9968" [label=N]
+	"ff78bd5f-3e06-11eb-b172-5800e3ba9968" [label="samples = 6
+ value = opel" color=tomato style=filled]
+	"ff789666-3e06-11eb-8f3a-5800e3ba9968" -> "ff78bd5f-3e06-11eb-b172-5800e3ba9968" [label=N]
+	"ff78bd60-3e06-11eb-bb29-5800e3ba9968" [label="SCALED RADIUS OF GYRATION <= 140.0 ? " color=yellow style=filled]
+	"ff789665-3e06-11eb-981a-5800e3ba9968" -> "ff78bd60-3e06-11eb-bb29-5800e3ba9968" [label=N]
+	"ff78bd61-3e06-11eb-b11c-5800e3ba9968" [label="MAX.LENGTH RECTANGULARITY <= 128.0 ? " color=skyblue style=filled]
+	"ff78bd60-3e06-11eb-bb29-5800e3ba9968" -> "ff78bd61-3e06-11eb-b11c-5800e3ba9968" [label=Y]
+	"ff78e452-3e06-11eb-b5d2-5800e3ba9968" [label="DISTANCE CIRCULARITY <= 78.0 ? " color=pink style=filled]
+	"ff78bd61-3e06-11eb-b11c-5800e3ba9968" -> "ff78e452-3e06-11eb-b5d2-5800e3ba9968" [label=Y]
+	"ff78e453-3e06-11eb-b8ea-5800e3ba9968" [label="samples = 2
+ value = opel" color=tomato style=filled]
+	"ff78e452-3e06-11eb-b5d2-5800e3ba9968" -> "ff78e453-3e06-11eb-b8ea-5800e3ba9968" [label=Y]
+	"ff78e454-3e06-11eb-904e-5800e3ba9968" [label="samples = 1
+ value = saab" color=tomato style=filled]
+	"ff78e452-3e06-11eb-b5d2-5800e3ba9968" -> "ff78e454-3e06-11eb-904e-5800e3ba9968" [label=N]
+	"ff78e455-3e06-11eb-b16f-5800e3ba9968" [label="samples = 10
+ value = van" color=pink style=filled]
+	"ff78bd61-3e06-11eb-b11c-5800e3ba9968" -> "ff78e455-3e06-11eb-b16f-5800e3ba9968" [label=N]
+	"ff78e456-3e06-11eb-932c-5800e3ba9968" [label="HOLLOWS RATIO <= 195.0 ? " color=skyblue style=filled]
+	"ff78bd60-3e06-11eb-bb29-5800e3ba9968" -> "ff78e456-3e06-11eb-932c-5800e3ba9968" [label=N]
+	"ff78e457-3e06-11eb-b6e2-5800e3ba9968" [label="DISTANCE CIRCULARITY <= 72.0 ? " color=tomato style=filled]
+	"ff78e456-3e06-11eb-932c-5800e3ba9968" -> "ff78e457-3e06-11eb-b6e2-5800e3ba9968" [label=Y]
+	"ff790b4c-3e06-11eb-b63d-5800e3ba9968" [label="samples = 5
+ value = saab" color=skyblue style=filled]
+	"ff78e457-3e06-11eb-b6e2-5800e3ba9968" -> "ff790b4c-3e06-11eb-b63d-5800e3ba9968" [label=Y]
+	"ff790b4d-3e06-11eb-bb04-5800e3ba9968" [label="CIRCULARITY <= 36.0 ? " color=skyblue style=filled]
+	"ff78e457-3e06-11eb-b6e2-5800e3ba9968" -> "ff790b4d-3e06-11eb-bb04-5800e3ba9968" [label=N]
+	"ff790b4e-3e06-11eb-8415-5800e3ba9968" [label="samples = 1
+ value = saab" color=skyblue style=filled]
+	"ff790b4d-3e06-11eb-bb04-5800e3ba9968" -> "ff790b4e-3e06-11eb-8415-5800e3ba9968" [label=Y]
+	"ff790b4f-3e06-11eb-995d-5800e3ba9968" [label="samples = 1
+ value = opel" color=skyblue style=filled]
+	"ff790b4d-3e06-11eb-bb04-5800e3ba9968" -> "ff790b4f-3e06-11eb-995d-5800e3ba9968" [label=N]
+	"ff790b50-3e06-11eb-91fd-5800e3ba9968" [label="CIRCULARITY <= 39.0 ? " color=tomato style=filled]
+	"ff78e456-3e06-11eb-932c-5800e3ba9968" -> "ff790b50-3e06-11eb-91fd-5800e3ba9968" [label=N]
+	"ff793240-3e06-11eb-a94d-5800e3ba9968" [label="samples = 1
+ value = van" color=purple style=filled]
+	"ff790b50-3e06-11eb-91fd-5800e3ba9968" -> "ff793240-3e06-11eb-a94d-5800e3ba9968" [label=Y]
+	"ff793241-3e06-11eb-b053-5800e3ba9968" [label="samples = 3
+ value = opel" color=purple style=filled]
+	"ff790b50-3e06-11eb-91fd-5800e3ba9968" -> "ff793241-3e06-11eb-b053-5800e3ba9968" [label=N]
+	"ff793242-3e06-11eb-b816-5800e3ba9968" [label="PR.AXIS ASPECT RATIO <= 62.0 ? " color=pink style=filled]
+	"ff77aca6-3e06-11eb-b326-5800e3ba9968" -> "ff793242-3e06-11eb-b816-5800e3ba9968" [label=N]
+	"ff793243-3e06-11eb-adf8-5800e3ba9968" [label="SKEWNESS ABOUT MINOR AXIS <= 18.0 ? " color=tomato style=filled]
+	"ff793242-3e06-11eb-b816-5800e3ba9968" -> "ff793243-3e06-11eb-adf8-5800e3ba9968" [label=Y]
+	"ff793244-3e06-11eb-99fa-5800e3ba9968" [label="COMPACTNESS <= 85.0 ? " color=orange style=filled]
+	"ff793243-3e06-11eb-adf8-5800e3ba9968" -> "ff793244-3e06-11eb-99fa-5800e3ba9968" [label=Y]
+	"ff793245-3e06-11eb-9713-5800e3ba9968" [label="samples = 5
+ value = opel" color=skyblue style=filled]
+	"ff793244-3e06-11eb-99fa-5800e3ba9968" -> "ff793245-3e06-11eb-9713-5800e3ba9968" [label=Y]
+	"ff795934-3e06-11eb-903e-5800e3ba9968" [label="MAX.LENGTH ASPECT RATIO <= 6.0 ? " color=skyblue style=filled]
+	"ff793244-3e06-11eb-99fa-5800e3ba9968" -> "ff795934-3e06-11eb-903e-5800e3ba9968" [label=N]
+	"ff795935-3e06-11eb-8fee-5800e3ba9968" [label="samples = 3
+ value = saab" color=yellow style=filled]
+	"ff795934-3e06-11eb-903e-5800e3ba9968" -> "ff795935-3e06-11eb-8fee-5800e3ba9968" [label=Y]
+	"ff795936-3e06-11eb-835b-5800e3ba9968" [label="RADIUS RATIO <= 153.0 ? " color=yellow style=filled]
+	"ff795934-3e06-11eb-903e-5800e3ba9968" -> "ff795936-3e06-11eb-835b-5800e3ba9968" [label=N]
+	"ff795937-3e06-11eb-8197-5800e3ba9968" [label="samples = 3
+ value = opel" color=purple style=filled]
+	"ff795936-3e06-11eb-835b-5800e3ba9968" -> "ff795937-3e06-11eb-8197-5800e3ba9968" [label=Y]
+	"ff7980b4-3e06-11eb-81fe-5800e3ba9968" [label="COMPACTNESS <= 89.0 ? " color=purple style=filled]
+	"ff795936-3e06-11eb-835b-5800e3ba9968" -> "ff7980b4-3e06-11eb-81fe-5800e3ba9968" [label=N]
+	"ff7980b5-3e06-11eb-9fce-5800e3ba9968" [label="samples = 2
+ value = saab" color=skyblue style=filled]
+	"ff7980b4-3e06-11eb-81fe-5800e3ba9968" -> "ff7980b5-3e06-11eb-9fce-5800e3ba9968" [label=Y]
+	"ff7980b6-3e06-11eb-8eca-5800e3ba9968" [label="samples = 1
+ value = opel" color=skyblue style=filled]
+	"ff7980b4-3e06-11eb-81fe-5800e3ba9968" -> "ff7980b6-3e06-11eb-8eca-5800e3ba9968" [label=N]
+	"ff7980b7-3e06-11eb-aa1d-5800e3ba9968" [label="DISTANCE CIRCULARITY <= 77.0 ? " color=orange style=filled]
+	"ff793243-3e06-11eb-adf8-5800e3ba9968" -> "ff7980b7-3e06-11eb-aa1d-5800e3ba9968" [label=N]
+	"ff7980b8-3e06-11eb-b0ba-5800e3ba9968" [label="samples = 10
+ value = saab" color=purple style=filled]
+	"ff7980b7-3e06-11eb-aa1d-5800e3ba9968" -> "ff7980b8-3e06-11eb-b0ba-5800e3ba9968" [label=Y]
+	"ff7980b9-3e06-11eb-b7ec-5800e3ba9968" [label="DISTANCE CIRCULARITY <= 80.0 ? " color=purple style=filled]
+	"ff7980b7-3e06-11eb-aa1d-5800e3ba9968" -> "ff7980b9-3e06-11eb-b7ec-5800e3ba9968" [label=N]
+	"ff79a736-3e06-11eb-956c-5800e3ba9968" [label="RADIUS RATIO <= 162.0 ? " color=green style=filled]
+	"ff7980b9-3e06-11eb-b7ec-5800e3ba9968" -> "ff79a736-3e06-11eb-956c-5800e3ba9968" [label=Y]
+	"ff79a737-3e06-11eb-abd8-5800e3ba9968" [label="samples = 3
+ value = opel" color=red style=filled]
+	"ff79a736-3e06-11eb-956c-5800e3ba9968" -> "ff79a737-3e06-11eb-abd8-5800e3ba9968" [label=Y]
+	"ff79a738-3e06-11eb-a7bc-5800e3ba9968" [label="samples = 1
+ value = saab" color=red style=filled]
+	"ff79a736-3e06-11eb-956c-5800e3ba9968" -> "ff79a738-3e06-11eb-a7bc-5800e3ba9968" [label=N]
+	"ff79a739-3e06-11eb-aac2-5800e3ba9968" [label="samples = 2
+ value = saab" color=green style=filled]
+	"ff7980b9-3e06-11eb-b7ec-5800e3ba9968" -> "ff79a739-3e06-11eb-aac2-5800e3ba9968" [label=N]
+	"ff79a73a-3e06-11eb-acf4-5800e3ba9968" [label="SCALED VARIANCE ALONG MAJOR AXIS <= 179.0 ? " color=tomato style=filled]
+	"ff793242-3e06-11eb-b816-5800e3ba9968" -> "ff79a73a-3e06-11eb-acf4-5800e3ba9968" [label=N]
+	"ff79ce68-3e06-11eb-b909-5800e3ba9968" [label="samples = 14
+ value = bus" color=purple style=filled]
+	"ff79a73a-3e06-11eb-acf4-5800e3ba9968" -> "ff79ce68-3e06-11eb-b909-5800e3ba9968" [label=Y]
+	"ff79ce69-3e06-11eb-b66b-5800e3ba9968" [label="KURTOSIS ABOUT MAJOR AXIS <= 190.0 ? " color=purple style=filled]
+	"ff79a73a-3e06-11eb-acf4-5800e3ba9968" -> "ff79ce69-3e06-11eb-b66b-5800e3ba9968" [label=N]
+	"ff79ce6a-3e06-11eb-809d-5800e3ba9968" [label="samples = 3
+ value = saab" color=red style=filled]
+	"ff79ce69-3e06-11eb-b66b-5800e3ba9968" -> "ff79ce6a-3e06-11eb-809d-5800e3ba9968" [label=Y]
+	"ff79ce6b-3e06-11eb-bff3-5800e3ba9968" [label="CIRCULARITY <= 36.0 ? " color=red style=filled]
+	"ff79ce69-3e06-11eb-b66b-5800e3ba9968" -> "ff79ce6b-3e06-11eb-bff3-5800e3ba9968" [label=N]
+	"ff79f51e-3e06-11eb-96c6-5800e3ba9968" [label="samples = 1
+ value = opel" color=orange style=filled]
+	"ff79ce6b-3e06-11eb-bff3-5800e3ba9968" -> "ff79f51e-3e06-11eb-96c6-5800e3ba9968" [label=Y]
+	"ff79f51f-3e06-11eb-b719-5800e3ba9968" [label="samples = 2
+ value = bus" color=orange style=filled]
+	"ff79ce6b-3e06-11eb-bff3-5800e3ba9968" -> "ff79f51f-3e06-11eb-b719-5800e3ba9968" [label=N]
+	"ff79f520-3e06-11eb-80b4-5800e3ba9968" [label="DISTANCE CIRCULARITY <= 76.0 ? " color=orange style=filled]
+	"ff7785b1-3e06-11eb-8f5a-5800e3ba9968" -> "ff79f520-3e06-11eb-80b4-5800e3ba9968" [label=N]
+	"ff79f521-3e06-11eb-b7af-5800e3ba9968" [label="SCATTER RATIO <= 140.0 ? " color=orange style=filled]
+	"ff79f520-3e06-11eb-80b4-5800e3ba9968" -> "ff79f521-3e06-11eb-b7af-5800e3ba9968" [label=Y]
+	"ff79f522-3e06-11eb-9369-5800e3ba9968" [label="samples = 38
+ value = van" color=orange style=filled]
+	"ff79f521-3e06-11eb-b7af-5800e3ba9968" -> "ff79f522-3e06-11eb-9369-5800e3ba9968" [label=Y]
+	"ff79f523-3e06-11eb-8452-5800e3ba9968" [label="HOLLOWS RATIO <= 190.0 ? " color=orange style=filled]
+	"ff79f521-3e06-11eb-b7af-5800e3ba9968" -> "ff79f523-3e06-11eb-8452-5800e3ba9968" [label=N]
+	"ff7a1c10-3e06-11eb-ae71-5800e3ba9968" [label="samples = 60
+ value = bus" color=red style=filled]
+	"ff79f523-3e06-11eb-8452-5800e3ba9968" -> "ff7a1c10-3e06-11eb-ae71-5800e3ba9968" [label=Y]
+	"ff7a1c11-3e06-11eb-b87d-5800e3ba9968" [label="PR.AXIS ASPECT RATIO <= 60.0 ? " color=red style=filled]
+	"ff79f523-3e06-11eb-8452-5800e3ba9968" -> "ff7a1c11-3e06-11eb-b87d-5800e3ba9968" [label=N]
+	"ff7a1c12-3e06-11eb-bf64-5800e3ba9968" [label="KURTOSIS ABOUT MAJOR AXIS <= 187.0 ? " color=orange style=filled]
+	"ff7a1c11-3e06-11eb-b87d-5800e3ba9968" -> "ff7a1c12-3e06-11eb-bf64-5800e3ba9968" [label=Y]
+	"ff7b076e-3e06-11eb-b8b6-5800e3ba9968" [label="SCATTER RATIO <= 150.0 ? " color=green style=filled]
+	"ff7a1c12-3e06-11eb-bf64-5800e3ba9968" -> "ff7b076e-3e06-11eb-b8b6-5800e3ba9968" [label=Y]
+	"ff7b076f-3e06-11eb-8409-5800e3ba9968" [label="COMPACTNESS <= 83.0 ? " color=orange style=filled]
+	"ff7b076e-3e06-11eb-b8b6-5800e3ba9968" -> "ff7b076f-3e06-11eb-8409-5800e3ba9968" [label=Y]
+	"ff7b2d02-3e06-11eb-9b9c-5800e3ba9968" [label="samples = 2
+ value = bus" color=red style=filled]
+	"ff7b076f-3e06-11eb-8409-5800e3ba9968" -> "ff7b2d02-3e06-11eb-9b9c-5800e3ba9968" [label=Y]
+	"ff7b2d03-3e06-11eb-abdc-5800e3ba9968" [label="samples = 1
+ value = saab" color=red style=filled]
+	"ff7b076f-3e06-11eb-8409-5800e3ba9968" -> "ff7b2d03-3e06-11eb-abdc-5800e3ba9968" [label=N]
+	"ff7b53a6-3e06-11eb-b021-5800e3ba9968" [label="samples = 6
+ value = van" color=orange style=filled]
+	"ff7b076e-3e06-11eb-b8b6-5800e3ba9968" -> "ff7b53a6-3e06-11eb-b021-5800e3ba9968" [label=N]
+	"ff7b53a7-3e06-11eb-a0d2-5800e3ba9968" [label="COMPACTNESS <= 92.0 ? " color=green style=filled]
+	"ff7a1c12-3e06-11eb-bf64-5800e3ba9968" -> "ff7b53a7-3e06-11eb-a0d2-5800e3ba9968" [label=N]
+	"ff7b53a8-3e06-11eb-936d-5800e3ba9968" [label="samples = 4
+ value = opel" color=pink style=filled]
+	"ff7b53a7-3e06-11eb-a0d2-5800e3ba9968" -> "ff7b53a8-3e06-11eb-936d-5800e3ba9968" [label=Y]
+	"ff7b53a9-3e06-11eb-bcec-5800e3ba9968" [label="COMPACTNESS <= 97.0 ? " color=pink style=filled]
+	"ff7b53a7-3e06-11eb-a0d2-5800e3ba9968" -> "ff7b53a9-3e06-11eb-bcec-5800e3ba9968" [label=N]
+	"ff7b53aa-3e06-11eb-9c5b-5800e3ba9968" [label="samples = 4
+ value = saab" color=green style=filled]
+	"ff7b53a9-3e06-11eb-bcec-5800e3ba9968" -> "ff7b53aa-3e06-11eb-9c5b-5800e3ba9968" [label=Y]
+	"ff7b53ab-3e06-11eb-b355-5800e3ba9968" [label="samples = 1
+ value = opel" color=green style=filled]
+	"ff7b53a9-3e06-11eb-bcec-5800e3ba9968" -> "ff7b53ab-3e06-11eb-b355-5800e3ba9968" [label=N]
+	"ff7b7aa6-3e06-11eb-afc0-5800e3ba9968" [label="CIRCULARITY <= 44.0 ? " color=orange style=filled]
+	"ff7a1c11-3e06-11eb-b87d-5800e3ba9968" -> "ff7b7aa6-3e06-11eb-afc0-5800e3ba9968" [label=N]
+	"ff7b7aa7-3e06-11eb-8746-5800e3ba9968" [label="samples = 14
+ value = bus" color=green style=filled]
+	"ff7b7aa6-3e06-11eb-afc0-5800e3ba9968" -> "ff7b7aa7-3e06-11eb-8746-5800e3ba9968" [label=Y]
+	"ff7b7aa8-3e06-11eb-9d8b-5800e3ba9968" [label="MAX.LENGTH ASPECT RATIO <= 7.0 ? " color=green style=filled]
+	"ff7b7aa6-3e06-11eb-afc0-5800e3ba9968" -> "ff7b7aa8-3e06-11eb-9d8b-5800e3ba9968" [label=N]
+	"ff7b7aa9-3e06-11eb-ab80-5800e3ba9968" [label="COMPACTNESS <= 91.0 ? " color=tomato style=filled]
+	"ff7b7aa8-3e06-11eb-9d8b-5800e3ba9968" -> "ff7b7aa9-3e06-11eb-ab80-5800e3ba9968" [label=Y]
+	"ff7b7aaa-3e06-11eb-9af1-5800e3ba9968" [label="samples = 7
+ value = bus" color=pink style=filled]
+	"ff7b7aa9-3e06-11eb-ab80-5800e3ba9968" -> "ff7b7aaa-3e06-11eb-9af1-5800e3ba9968" [label=Y]
+	"ff7ba250-3e06-11eb-b852-5800e3ba9968" [label="samples = 1
+ value = van" color=pink style=filled]
+	"ff7b7aa9-3e06-11eb-ab80-5800e3ba9968" -> "ff7ba250-3e06-11eb-b852-5800e3ba9968" [label=N]
+	"ff7ba251-3e06-11eb-a277-5800e3ba9968" [label="samples = 2
+ value = van" color=tomato style=filled]
+	"ff7b7aa8-3e06-11eb-9d8b-5800e3ba9968" -> "ff7ba251-3e06-11eb-a277-5800e3ba9968" [label=N]
+	"ff7bc8a4-3e06-11eb-8e75-5800e3ba9968" [label="DISTANCE CIRCULARITY <= 77.0 ? " color=orange style=filled]
+	"ff79f520-3e06-11eb-80b4-5800e3ba9968" -> "ff7bc8a4-3e06-11eb-8e75-5800e3ba9968" [label=N]
+	"ff7bc8a5-3e06-11eb-8db0-5800e3ba9968" [label="SCALED VARIANCE ALONG MAJOR AXIS <= 171.0 ? " color=pink style=filled]
+	"ff7bc8a4-3e06-11eb-8e75-5800e3ba9968" -> "ff7bc8a5-3e06-11eb-8db0-5800e3ba9968" [label=Y]
+	"ff7bc8a6-3e06-11eb-a76a-5800e3ba9968" [label="COMPACTNESS <= 88.0 ? " color=tomato style=filled]
+	"ff7bc8a5-3e06-11eb-8db0-5800e3ba9968" -> "ff7bc8a6-3e06-11eb-a76a-5800e3ba9968" [label=Y]
+	"ff7bc8a7-3e06-11eb-a394-5800e3ba9968" [label="samples = 1
+ value = saab" color=green style=filled]
+	"ff7bc8a6-3e06-11eb-a76a-5800e3ba9968" -> "ff7bc8a7-3e06-11eb-a394-5800e3ba9968" [label=Y]
+	"ff7bc8a8-3e06-11eb-83ba-5800e3ba9968" [label="PR.AXIS ASPECT RATIO <= 54.0 ? " color=green style=filled]
+	"ff7bc8a6-3e06-11eb-a76a-5800e3ba9968" -> "ff7bc8a8-3e06-11eb-83ba-5800e3ba9968" [label=N]
+	"ff7bc8a9-3e06-11eb-9a85-5800e3ba9968" [label="CIRCULARITY <= 43.0 ? " color=red style=filled]
+	"ff7bc8a8-3e06-11eb-83ba-5800e3ba9968" -> "ff7bc8a9-3e06-11eb-9a85-5800e3ba9968" [label=Y]
+	"ff7befa4-3e06-11eb-b4d2-5800e3ba9968" [label="samples = 1
+ value = saab" color=skyblue style=filled]
+	"ff7bc8a9-3e06-11eb-9a85-5800e3ba9968" -> "ff7befa4-3e06-11eb-b4d2-5800e3ba9968" [label=Y]
+	"ff7befa5-3e06-11eb-8615-5800e3ba9968" [label="samples = 1
+ value = van" color=skyblue style=filled]
+	"ff7bc8a9-3e06-11eb-9a85-5800e3ba9968" -> "ff7befa5-3e06-11eb-8615-5800e3ba9968" [label=N]
+	"ff7befa6-3e06-11eb-88dc-5800e3ba9968" [label="samples = 4
+ value = van" color=red style=filled]
+	"ff7bc8a8-3e06-11eb-83ba-5800e3ba9968" -> "ff7befa6-3e06-11eb-88dc-5800e3ba9968" [label=N]
+	"ff7befa7-3e06-11eb-a4b8-5800e3ba9968" [label="SCALED RADIUS OF GYRATION <= 172.0 ? " color=tomato style=filled]
+	"ff7bc8a5-3e06-11eb-8db0-5800e3ba9968" -> "ff7befa7-3e06-11eb-a4b8-5800e3ba9968" [label=N]
+	"ff7befa8-3e06-11eb-81b1-5800e3ba9968" [label="samples = 2
+ value = opel" color=green style=filled]
+	"ff7befa7-3e06-11eb-a4b8-5800e3ba9968" -> "ff7befa8-3e06-11eb-81b1-5800e3ba9968" [label=Y]
+	"ff7c1690-3e06-11eb-908a-5800e3ba9968" [label="samples = 2
+ value = saab" color=green style=filled]
+	"ff7befa7-3e06-11eb-a4b8-5800e3ba9968" -> "ff7c1690-3e06-11eb-908a-5800e3ba9968" [label=N]
+	"ff7c1691-3e06-11eb-8c4a-5800e3ba9968" [label="SCALED VARIANCE ALONG MAJOR AXIS <= 179.0 ? " color=pink style=filled]
+	"ff7bc8a4-3e06-11eb-8e75-5800e3ba9968" -> "ff7c1691-3e06-11eb-8c4a-5800e3ba9968" [label=N]
+	"ff7c1692-3e06-11eb-8e46-5800e3ba9968" [label="samples = 66
+ value = van" color=purple style=filled]
+	"ff7c1691-3e06-11eb-8c4a-5800e3ba9968" -> "ff7c1692-3e06-11eb-8e46-5800e3ba9968" [label=Y]
+	"ff7c1693-3e06-11eb-9b17-5800e3ba9968" [label="COMPACTNESS <= 88.0 ? " color=purple style=filled]
+	"ff7c1691-3e06-11eb-8c4a-5800e3ba9968" -> "ff7c1693-3e06-11eb-9b17-5800e3ba9968" [label=N]
+	"ff7c1694-3e06-11eb-8b7f-5800e3ba9968" [label="COMPACTNESS <= 87.0 ? " color=purple style=filled]
+	"ff7c1693-3e06-11eb-9b17-5800e3ba9968" -> "ff7c1694-3e06-11eb-8b7f-5800e3ba9968" [label=Y]
+	"ff7c3d6e-3e06-11eb-94ff-5800e3ba9968" [label="samples = 1
+ value = opel" color=yellow style=filled]
+	"ff7c1694-3e06-11eb-8b7f-5800e3ba9968" -> "ff7c3d6e-3e06-11eb-94ff-5800e3ba9968" [label=Y]
+	"ff7c3d6f-3e06-11eb-931c-5800e3ba9968" [label="samples = 1
+ value = saab" color=yellow style=filled]
+	"ff7c1694-3e06-11eb-8b7f-5800e3ba9968" -> "ff7c3d6f-3e06-11eb-931c-5800e3ba9968" [label=N]
+	"ff7c3d70-3e06-11eb-8214-5800e3ba9968" [label="samples = 3
+ value = van" color=purple style=filled]
+	"ff7c1693-3e06-11eb-9b17-5800e3ba9968" -> "ff7c3d70-3e06-11eb-8214-5800e3ba9968" [label=N]
+}
